@@ -1,0 +1,23 @@
+# AI-PULSE Dependencies
+# Web scraping and parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# RSS feed generation
+feedgen>=0.9.0
+
+# Date/time handling
+python-dateutil>=2.8.2
+
+# Email integration (built-in smtplib)
+
+# Utilities
+urllib3>=2.0.4
+html5lib>=1.1
+
+# Optional: For enhanced parsing
+selectolax>=0.3.17
+
+# Optional: For caching
+requests-cache>=1.1.0
