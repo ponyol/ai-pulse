@@ -17,6 +17,10 @@ jobs:
   update-feeds:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write    # Required to push changes
+      actions: read      # Required for basic workflow functionality
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -55,16 +59,13 @@ jobs:
         du -h feeds/*
         
     - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add feeds/
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "🤖 Update RSS feeds - $(date)"
-          git push
-        fi
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "🤖 Update RSS feeds - $(date)"
+        file_pattern: 'feeds/'
+        commit_user_name: 'AI-PULSE Bot'
+        commit_user_email: 'action@github.com'
+        commit_author: 'AI-PULSE Bot <action@github.com>'
 
     - name: Upload feeds as artifacts
       uses: actions/upload-artifact@v4
