@@ -52,16 +52,31 @@ python desktop_integration/gmail_integration.py setup \
 
 ## 📡 RSS Feeds
 
-**Live feeds** (updated every 4 hours):
-- **Complete Feed**: `feeds/feed_anthropic_complete.xml` (46 articles)
-- **News**: `feeds/feed_anthropic_news.xml` (16 articles)  
-- **Engineering**: `feeds/feed_anthropic_engineering.xml` (5 articles)
-- **Alignment Science**: `feeds/feed_anthropic_alignment.xml` (25 articles)
+### 🎯 Available Feeds
 
-Add to your RSS reader:
+| Feed | Description | Articles | RSS URL |
+|------|-------------|----------|---------|
+| 🔥 **Complete** | All sources combined | 46+ | [`feed_anthropic_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml) |
+| 📰 **News** | Official announcements | 16+ | [`feed_anthropic_news.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml) |
+| 🔧 **Engineering** | Technical insights | 5+ | [`feed_anthropic_engineering.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml) |
+| 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
+
+### 📱 Quick Add to RSS Reader
+Copy and paste these URLs into your RSS reader:
+
+**🔥 Recommended: Complete Feed**
 ```
-https://raw.githubusercontent.com/your-username/ai-pulse/main/feeds/feed_anthropic_complete.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml
 ```
+
+**📰 Individual Feeds**
+```
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml  
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml
+```
+
+⏰ **Updates**: Every 4 hours + full rescan Mondays 8AM UTC
 
 ## 🎛️ Features
 

@@ -58,10 +58,14 @@ jobs:
         echo "📏 Feed sizes:"
         du -h feeds/*
         
+    - name: Get current date
+      id: date
+      run: echo "timestamp=$(date)" >> $GITHUB_OUTPUT
+        
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "🤖 Update RSS feeds - $(date)"
+        commit_message: "🤖 Update RSS feeds - ${{ steps.date.outputs.timestamp }}"
         file_pattern: 'feeds/'
         commit_user_name: 'AI-PULSE Bot'
         commit_user_email: 'action@github.com'
