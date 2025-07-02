@@ -129,6 +129,8 @@ class TranslationEngine:
             logger.warning("⚠️ MISTRAL_API_KEY not found, falling back to mock translations")
             return None
             
+        logger.info(f"🌐 Calling Mistral AI API ({self.mistral_model})...")
+        
         headers = {
             "Authorization": f"Bearer {self.mistral_api_key}",
             "Content-Type": "application/json"
@@ -150,17 +152,27 @@ class TranslationEngine:
         try:
             import aiohttp
             
+            logger.debug(f"📡 Sending request to {self.mistral_base_url}")
+            
             async with aiohttp.ClientSession() as session:
                 async with session.post(self.mistral_base_url, headers=headers, json=payload) as response:
                     if response.status == 200:
                         result = await response.json()
                         content = result['choices'][0]['message']['content']
                         
+                        # Log API usage stats
+                        usage = result.get('usage', {})
+                        if usage:
+                            prompt_tokens = usage.get('prompt_tokens', 0)
+                            completion_tokens = usage.get('completion_tokens', 0)
+                            total_tokens = usage.get('total_tokens', 0)
+                            logger.info(f"📊 Mistral API usage: {total_tokens} tokens ({prompt_tokens} prompt + {completion_tokens} completion)")
+                        
                         # Parse JSON response
                         translation_data = json.loads(content)
                         translations = translation_data.get('translations', [])
                         
-                        logger.info(f"✅ Mistral API returned {len(translations)} translations")
+                        logger.info(f"✅ Mistral API success: Received {len(translations)} high-quality translations")
                         return translations
                     else:
                         error_text = await response.text()
@@ -172,12 +184,24 @@ class TranslationEngine:
             # Fallback to sync requests
             import requests
             
+            logger.debug(f"📡 Sending request to {self.mistral_base_url} (sync)")
+            
             response = requests.post(self.mistral_base_url, headers=headers, json=payload)
             if response.status_code == 200:
-                content = response.json()['choices'][0]['message']['content']
+                result = response.json()
+                content = result['choices'][0]['message']['content']
+                
+                # Log API usage stats
+                usage = result.get('usage', {})
+                if usage:
+                    prompt_tokens = usage.get('prompt_tokens', 0)
+                    completion_tokens = usage.get('completion_tokens', 0)
+                    total_tokens = usage.get('total_tokens', 0)
+                    logger.info(f"📊 Mistral API usage: {total_tokens} tokens ({prompt_tokens} prompt + {completion_tokens} completion)")
+                
                 translation_data = json.loads(content)
                 translations = translation_data.get('translations', [])
-                logger.info(f"✅ Mistral API returned {len(translations)} translations")
+                logger.info(f"✅ Mistral API success: Received {len(translations)} high-quality translations")
                 return translations
             else:
                 logger.error(f"❌ Mistral API error {response.status_code}: {response.text}")
@@ -185,6 +209,7 @@ class TranslationEngine:
                 
         except json.JSONDecodeError as e:
             logger.error(f"❌ Failed to parse Mistral response as JSON: {e}")
+            logger.debug(f"Raw response content: {content[:200]}...")
             return None
             
         except Exception as e:
@@ -201,7 +226,7 @@ class TranslationEngine:
         Returns:
             Mock translations in Ukrainian
         """
-        logger.info("🧪 Generating mock Ukrainian translations for testing...")
+        logger.info(f"🧪 Generating rule-based Ukrainian translations for {len(articles)} {category} articles...")
         
         mock_translations = []
         
@@ -248,9 +273,12 @@ class TranslationEngine:
             'Policy': 'Політичні рішення від Anthropic: {}'
         }
         
+        successful_translations = 0
+        
         for article in articles:
             # Mock translate title
             title = article['title']
+            original_title = title
             for en, ua in title_translations.items():
                 title = title.replace(en, ua)
             
@@ -267,7 +295,11 @@ class TranslationEngine:
                 'description': mock_description
             })
             
-            logger.debug(f"🧪 Mock translation: {article['title'][:30]}... → {mock_title[:30]}...")
+            successful_translations += 1
+            logger.debug(f"🧪 Rule-based: {original_title[:30]}... → {mock_title[:30]}...")
+        
+        logger.info(f"✅ Rule-based translations completed: {successful_translations}/{len(articles)} articles")
+        logger.info(f"📝 Translation method: Dictionary-based with {len(title_translations)} term mappings")
         
         return mock_translations
     
@@ -285,6 +317,12 @@ class TranslationEngine:
             return []
             
         logger.info(f"🇺🇦 Translating {len(articles)} {category} articles to Ukrainian via Mistral...")
+        
+        # Check Mistral API availability
+        if self.mistral_api_key:
+            logger.info(f"🤖 Mistral API: ✅ Available (using {self.mistral_model})")
+        else:
+            logger.warning(f"⚠️ Mistral API: ❌ MISTRAL_API_KEY not found - using fallback translations")
         
         # Check cache and separate cached vs new articles
         cached_articles = []
@@ -306,9 +344,13 @@ class TranslationEngine:
         
         translated_articles = cached_articles.copy()
         
+        # Log cache efficiency
+        if cached_articles:
+            logger.info(f"💾 Cache hit: {len(cached_articles)}/{len(articles)} articles (efficiency: {len(cached_articles)/len(articles)*100:.1f}%)")
+        
         # Translate new articles if any
         if to_translate:
-            logger.info(f"🔄 Translating {len(to_translate)} new articles via Mistral API...")
+            logger.info(f"🔄 Need to translate {len(to_translate)} new articles...")
             
             # Create prompt and call Mistral API
             prompt = self._create_mistral_prompt(to_translate, category)
@@ -316,8 +358,12 @@ class TranslationEngine:
             
             # Fallback to mock translations if Mistral API fails
             if translations is None:
-                logger.warning("⚠️ Mistral API failed, using mock translations")
+                logger.warning("⚠️ Mistral API failed - falling back to rule-based translations")
                 translations = self._generate_mock_translations(to_translate, category)
+                translation_method = "fallback"
+            else:
+                logger.info(f"✅ Mistral API success: Received {len(translations)} translations")
+                translation_method = "mistral_api"
             
             if len(translations) != len(to_translate):
                 logger.warning(f"⚠️ Translation count mismatch: {len(translations)} vs {len(to_translate)}")
@@ -335,7 +381,7 @@ class TranslationEngine:
                     'title': translation['title'],
                     'description': translation['description'],
                     'translated_at': datetime.now(timezone.utc).isoformat(),
-                    'translation_method': 'mistral_api' if self.mistral_api_key else 'mock'
+                    'translation_method': translation_method
                 }
                 
                 # Create translated article
@@ -348,10 +394,22 @@ class TranslationEngine:
             
             # Save updated cache
             self._save_cache()
-            translation_method = "Mistral API" if self.mistral_api_key else "Mock"
-            logger.info(f"🎉 Successfully translated {len(translations)} articles via {translation_method}!")
+            api_method = "Mistral API" if translation_method == "mistral_api" else "Rule-based fallback"
+            logger.info(f"🎉 Successfully translated {len(translations)} articles via {api_method}!")
         
-        logger.info(f"📝 Total articles prepared: {len(translated_articles)} ({len(cached_articles)} cached + {len(translations) if 'translations' in locals() else 0} new)")
+        # Final summary with detailed stats
+        total_articles = len(translated_articles)
+        cached_count = len(cached_articles)
+        new_count = len(translations) if 'translations' in locals() else 0
+        
+        logger.info(f"📝 Ukrainian feed ready: {total_articles} articles total")
+        logger.info(f"   💾 Cached: {cached_count} articles")
+        logger.info(f"   🆕 New: {new_count} articles")
+        
+        if new_count > 0:
+            method = "Mistral API" if self.mistral_api_key and translations else "Fallback"
+            logger.info(f"   🤖 Translation method: {method}")
+        
         return translated_articles
     
     async def translate_single_article(self, title: str, description: str, category: str = "News") -> Tuple[str, str]:

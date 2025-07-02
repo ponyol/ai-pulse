@@ -151,6 +151,7 @@ async def main():
     """Main function to generate Ukrainian news RSS feed"""
     try:
         logger.info("🇺🇦 Starting Ukrainian Anthropic News RSS generation")
+        start_time = datetime.now()
         
         # Step 1: Read English feed
         logger.info("📖 Reading English RSS feed...")
@@ -160,9 +161,16 @@ async def main():
             logger.error("❌ No English articles found!")
             return
         
-        # Step 2: Translate to Ukrainian
-        logger.info("🔄 Translating articles to Ukrainian...")
+        logger.info(f"📰 Found {len(english_articles)} English articles to translate")
+        
+        # Step 2: Translate to Ukrainian  
+        logger.info("🔄 Initializing Ukrainian translation engine...")
         translation_engine = TranslationEngine()
+        
+        # Show translation engine status
+        cache_stats = translation_engine.get_cache_stats()
+        logger.info(f"💾 Translation cache: {cache_stats['total_translations']} existing translations")
+        logger.info(f"🤖 Mistral API: {'✅ Available' if cache_stats['mistral_api_available'] else '❌ Using fallback'}")
         
         translated_articles = await translation_engine.translate_articles_batch(
             english_articles, 
@@ -173,18 +181,39 @@ async def main():
             logger.error("❌ Translation failed!")
             return
         
+        logger.info(f"✅ Translation completed: {len(translated_articles)} Ukrainian articles ready")
+        
         # Step 3: Generate Ukrainian RSS
         logger.info("📡 Generating Ukrainian RSS feed...")
         await generate_ukrainian_rss(translated_articles)
         
-        # Step 4: Display cache stats
-        cache_stats = translation_engine.get_cache_stats()
-        logger.info(f"📚 Translation cache: {cache_stats['total_translations']} entries")
+        # Step 4: Final statistics
+        final_stats = translation_engine.get_cache_stats()
+        duration = datetime.now() - start_time
+        
+        logger.info(f"📊 Final statistics:")
+        logger.info(f"   📰 Articles processed: {len(translated_articles)}")
+        logger.info(f"   💾 Total cache entries: {final_stats['total_translations']}")
+        logger.info(f"   🤖 Mistral API translations: {final_stats['mistral_api_translations']}")
+        logger.info(f"   🧪 Fallback translations: {final_stats['mock_translations']}")
+        logger.info(f"   ⏱️  Duration: {duration}")
+        logger.info(f"   📄 Output file: {OUTPUT_FILE}")
+        
+        # Check output file size
+        try:
+            output_path = Path(OUTPUT_FILE)
+            if output_path.exists():
+                size_kb = output_path.stat().st_size / 1024
+                logger.info(f"   📏 Feed size: {size_kb:.1f} KB")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not check output file size: {e}")
         
         logger.info("🎉 Ukrainian Anthropic News RSS generation completed successfully!")
         
     except Exception as e:
         logger.error(f"❌ Generation failed: {e}")
+        import traceback
+        logger.debug(f"Full traceback: {traceback.format_exc()}")
         sys.exit(1)
 
 if __name__ == "__main__":

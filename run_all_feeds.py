@@ -33,6 +33,10 @@ def main():
     start_time = datetime.now()
     logger.info("🚀 AI-PULSE RSS generation started")
     
+    # Check Mistral API availability
+    mistral_key = os.getenv('MISTRAL_API_KEY')
+    logger.info(f"🤖 Mistral API: {'✅ Available' if mistral_key else '❌ Not found (using fallback)'}")
+    
     # Ensure feeds directory exists
     feeds_dir = Path('feeds')
     feeds_dir.mkdir(exist_ok=True)
@@ -72,6 +76,8 @@ def main():
                 import subprocess
                 import sys
                 
+                logger.info(f"🔄 Starting Ukrainian translation process...")
+                
                 # Run Ukrainian generator as subprocess since they use asyncio
                 result = subprocess.run([
                     sys.executable, f"feed_generators/{module_name}.py"
@@ -79,9 +85,62 @@ def main():
                 
                 if result.returncode == 0:
                     logger.info(f"✅ {description} - Success")
+                    
+                    # Parse and display key metrics from stdout
+                    # Combine stdout and stderr since Ukrainian generators log to stderr
+                    all_output = (result.stdout + result.stderr).strip()
+                    output_lines = all_output.split('\n') if all_output else []
+                    metrics_found = False
+                    
+                    for line in output_lines:
+                        # Extract log message content (after timestamp and logger name)
+                        if ' - ' in line and ' - INFO - ' in line:
+                            message = line.split(' - INFO - ')[-1]
+                        else:
+                            message = line
+                        
+                        # Show key translation metrics
+                        if 'mistral api:' in message.lower():
+                            logger.info(f"   🤖 {message}")
+                            metrics_found = True
+                        elif 'cache hit:' in message.lower():
+                            logger.info(f"   💾 {message}")
+                            metrics_found = True
+                        elif 'articles processed:' in message.lower():
+                            logger.info(f"   📰 {message}")
+                            metrics_found = True
+                        elif 'mistral api translations:' in message.lower():
+                            logger.info(f"   🔗 {message}")
+                            metrics_found = True
+                        elif 'fallback translations:' in message.lower():
+                            logger.info(f"   🧪 {message}")
+                            metrics_found = True
+                        elif 'duration:' in message.lower():
+                            logger.info(f"   ⏱️ {message}")
+                            metrics_found = True
+                        elif 'feed size:' in message.lower():
+                            logger.info(f"   📏 {message}")
+                            metrics_found = True
+                    
+                    if not metrics_found:
+                        # Fallback: show that Ukrainian translation completed
+                        logger.info(f"   🇺🇦 Ukrainian translation completed")
+                    
                     success_count += 1
                 else:
-                    logger.error(f"❌ {description} - Error: {result.stderr}")
+                    logger.error(f"❌ {description} - Error (exit code: {result.returncode})")
+                    if result.stderr:
+                        # Show detailed error info
+                        stderr_lines = result.stderr.strip().split('\n')
+                        for line in stderr_lines[-3:]:  # Show last 3 error lines
+                            if line.strip():
+                                logger.error(f"   💥 {line}")
+                    if result.stdout:
+                        # Show any stdout that might contain useful info
+                        stdout_lines = result.stdout.strip().split('\n')
+                        for line in stdout_lines[-2:]:  # Show last 2 output lines
+                            if line.strip() and 'error' in line.lower():
+                                logger.error(f"   📋 {line}")
                     
             else:
                 # English generators - direct import
@@ -130,5 +189,17 @@ def main():
         logger.info(f"🇬🇧 English feeds: {english_feeds_count}")
         logger.info(f"🇺🇦 Ukrainian feeds: {ukrainian_feeds_count}")
         logger.info("📡 RSS feeds available in feeds/ directory")
+        
+        # Check generated feed sizes
+        try:
+            feed_files = list(Path('feeds').glob('*.xml'))
+            logger.info(f"📂 Generated {len(feed_files)} RSS files:")
+            for feed_file in sorted(feed_files):
+                size_kb = feed_file.stat().st_size / 1024
+                logger.info(f"   📄 {feed_file.name}: {size_kb:.1f} KB")
+        except Exception as e:
+            logger.warning(f"⚠️ Could not check feed file sizes: {e}")
+
+
 if __name__ == "__main__":
     main()
