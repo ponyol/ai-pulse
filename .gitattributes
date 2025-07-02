@@ -1,0 +1,21 @@
+# AI-PULSE RSS Feeds Management
+# GitHub Actions has priority for automated RSS feed updates
+# This prevents merge conflicts while allowing local testing
+
+# RSS feeds: GitHub Actions always wins in conflicts
+feeds/*.xml merge=ours
+
+# Cache files: GitHub Actions always wins
+cache/*.json merge=ours
+
+# Documentation: use default merge strategy
+*.md merge=union
+README.md merge=union
+
+# Configuration files: manual merge required
+*.yml merge=text
+*.yaml merge=text
+requirements.txt merge=text
+
+# Python files: manual merge required  
+*.py merge=text
