@@ -470,6 +470,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🚀 Future Enhancements
 
+**📋 [See detailed roadmap in TODO.md](TODO.md)**
+
+- [ ] **🔥 HIGH PRIORITY: Mistral AI monitoring** - Add RSS feeds for Mistral AI news, research, and engineering posts (we use their API, so we should follow their updates!)
+- [ ] **📈 MEDIUM PRIORITY: Expand to other AI companies** - OpenAI, Google DeepMind, Cohere, xAI for comprehensive AI landscape monitoring
 - [ ] **Multi-language support** for international content
 - [ ] **Sentiment analysis** for content prioritization
 - [ ] **AI summarization** of long articles
