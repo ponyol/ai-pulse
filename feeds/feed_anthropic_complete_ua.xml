@@ -7,14 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Complete Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Wed, 02 Jul 2025 07:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 07:59:37 +0000</lastBuildDate>
     <item>
       <title>[Безпека ШІ] Reasoning Models Don't Always Say What They Think</title>
       <link>https://www.anthropic.com/research/reasoning-models-dont-say-think</link>
       <description>Дослідження безпеки ШІ від Anthropic: Reasoning Models Don't Always Say What They Think (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/reasoning-models-dont-say-think</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking Revisited: Improved Classifiers and Open Source Extensions</title>
@@ -22,7 +22,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Alignment Faking Revisited: Improved Classifiers and Open Source Extensions (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-revisited/</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Auditing мовні моделі for Hidden Objectives</title>
@@ -30,7 +30,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Auditing мовні моделі for Hidden Objectives (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/auditing-hidden-objectives</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Automated Researchers Can Subtly Sandbag</title>
@@ -38,7 +38,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Automated Researchers Can Subtly Sandbag (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/automated-researchers-sandbag/</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Представляємо Anthropic's Safeguards Research Team</title>
@@ -46,7 +46,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Представляємо Anthropic's Safeguards Research Team (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Forecasting Rare Language Model Behaviors</title>
@@ -54,7 +54,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Forecasting Rare Language Model Behaviors (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/forecasting-rare-behaviors</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking in Large мовні моделі</title>
@@ -62,7 +62,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Alignment Faking in Large мовні моделі (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] How to Replicate and Extend our Alignment Faking Demo</title>
@@ -70,7 +70,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: How to Replicate and Extend our Alignment Faking Demo (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2024/how-to-alignment-faking/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sabotage Eоцінкаs for Frontier Models</title>
@@ -78,7 +78,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Sabotage Eоцінкаs for Frontier Models (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sabotage-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Simple Probes can Catch Sleeper Agents</title>
@@ -86,7 +86,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Simple Probes can Catch Sleeper Agents (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sleeper Agents: Training Deceptive LLMs that Persist
@@ -96,7 +96,7 @@
                     Through Safety Training (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/many-shot-jailbreaking</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Discovering Language Model Behaviors with Model-Written
@@ -106,7 +106,7 @@
                     Eоцінкаs (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Science Blog</title>
@@ -114,7 +114,7 @@
       <description>Дослідження безпеки ШІ від Anthropic: Alignment Science Blog (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/cheap-monitors/</guid>
       <category>Alignment Science</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] розширення для робочого столу: в один клік MCP server installation for Claude Desktop</title>
@@ -122,7 +122,7 @@
       <description>Технічні розробки від Anthropic: розширення для робочого столу: в один клік MCP server installation for Claude Desktop (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
       <category>Engineering</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] How we built our multi-agent research system</title>
@@ -130,7 +130,7 @@
       <description>Технічні розробки від Anthropic: How we built our multi-agent research system (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/built-multi-agent-research-system</guid>
       <category>Engineering</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Claude Code: найкращі практики for agentic coding</title>
@@ -138,7 +138,7 @@
       <description>Технічні розробки від Anthropic: Claude Code: найкращі практики for agentic coding (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
       <category>Engineering</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Engineering at Anthropic: Inside the team building reliable AI systems</title>
@@ -146,7 +146,7 @@
       <description>Технічні розробки від Anthropic: Engineering at Anthropic: Inside the team building reliable AI systems (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://console.anthropic.com/</guid>
       <category>Engineering</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Оголошення] Представляємо Claude 4</title>
@@ -154,7 +154,7 @@
       <description>Оголошення від Anthropic: Представляємо Claude 4 (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-4</guid>
       <category>Announcements</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic залучає Серія E at $61.5B post-money оцінка</title>
@@ -162,7 +162,7 @@
       <description>Останні новини від Anthropic: Anthropic залучає Серія E at $61.5B post-money оцінка (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation</guid>
       <category>News</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Представляємо the Anthropic Economic Index</title>
@@ -170,7 +170,7 @@
       <description>Останні новини від Anthropic: Представляємо the Anthropic Economic Index (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/the-anthropic-economic-index</guid>
       <category>News</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Продукт] Представляємо the Anthropic Economic Futures Program</title>
@@ -178,7 +178,7 @@
       <description>Продуктові оновлення від Anthropic: Представляємо the Anthropic Economic Futures Program (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program</guid>
       <category>Product</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] How People Use Claude for Support, Advice, and Companionship</title>
@@ -186,7 +186,7 @@
       <description>Останні новини від Anthropic: How People Use Claude for Support, Advice, and Companionship (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship</guid>
       <category>News</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Продукт] Build and share AI-powered apps with Claude</title>
@@ -194,7 +194,7 @@
       <description>Продуктові оновлення від Anthropic: Build and share AI-powered apps with Claude (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-powered-artifacts</guid>
       <category>Product</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Продукт] Turn ideas into interactive AI-powered apps</title>
@@ -202,7 +202,7 @@
       <description>Продуктові оновлення від Anthropic: Turn ideas into interactive AI-powered apps (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/build-artifacts</guid>
       <category>Product</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Продукт] Remote MCP support in Claude Code</title>
@@ -210,7 +210,7 @@
       <description>Продуктові оновлення від Anthropic: Remote MCP support in Claude Code (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-code-remote-mcp</guid>
       <category>Product</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Оголошення] Claude in Amazon Bedrock: Approved for Use in FedRAMP High and DoD IL4/5 Workloads</title>
@@ -218,7 +218,7 @@
       <description>Оголошення від Anthropic: Claude in Amazon Bedrock: Approved for Use in FedRAMP High and DoD IL4/5 Workloads (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-in-amazon-bedrock-fedramp-high</guid>
       <category>Announcements</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Оголошення] національна безпека Expert Richard Fontaine призначений to Anthropic’s Long-Term Benefit Trust</title>
@@ -226,7 +226,7 @@
       <description>Оголошення від Anthropic: національна безпека Expert Richard Fontaine призначений to Anthropic’s Long-Term Benefit Trust (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust</guid>
       <category>Announcements</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Оголошення] Claude Gov Models for U.S. національна безпека Customers</title>
@@ -234,7 +234,7 @@
       <description>Оголошення від Anthropic: Claude Gov Models for U.S. національна безпека Customers (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers</guid>
       <category>Announcements</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Оголошення] Reed Hastings призначений to Anthropic’s рада директорів</title>
@@ -242,7 +242,7 @@
       <description>Оголошення від Anthropic: Reed Hastings призначений to Anthropic’s рада директорів (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/reed-hastings</guid>
       <category>Announcements</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
     <item>
       <title>[Політика] Activating Безпека ШІ Level 3 захист</title>
@@ -250,7 +250,7 @@
       <description>Політичні рішення від Anthropic: Activating Безпека ШІ Level 3 захист (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/activating-asl3-protections</guid>
       <category>Policy</category>
-      <pubDate>Wed, 02 Jul 2025 07:43:15 +0000</pubDate>
+      <pubDate>Wed, 02 Jul 2025 07:59:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
