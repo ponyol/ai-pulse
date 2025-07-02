@@ -1,0 +1,152 @@
+{
+  "8b6a7647dbb083a9b2efe7cf53d94ffc": {
+    "title": "[Політика] Activating Безпека ШІ Level 3 захист",
+    "description": "Політичні рішення від Anthropic: Activating Безпека ШІ Level 3 захист",
+    "translated_at": "2025-07-02T06:52:18.685321+00:00"
+  },
+  "c8e7c4d46742b4d131cea075bb99e959": {
+    "title": "[Оголошення] Reed Hastings призначений to Anthropic’s рада директорів",
+    "description": "Оголошення від Anthropic: Reed Hastings призначений to Anthropic’s рада директорів",
+    "translated_at": "2025-07-02T06:52:18.685472+00:00"
+  },
+  "34f664dcee4adceefc9afe4fd4c360ce": {
+    "title": "[Оголошення] Claude Gov Models for U.S. національна безпека Customers",
+    "description": "Оголошення від Anthropic: Claude Gov Models for U.S. національна безпека Customers",
+    "translated_at": "2025-07-02T06:52:18.685476+00:00"
+  },
+  "60bff04a8b19be7a1c122d319d894737": {
+    "title": "[Оголошення] національна безпека Expert Richard Fontaine призначений to Anthropic’s Long-Term Benefit Trust",
+    "description": "Оголошення від Anthropic: національна безпека Expert Richard Fontaine призначений to Anthropic’s Long-Term Benefit Trust",
+    "translated_at": "2025-07-02T06:52:18.685479+00:00"
+  },
+  "dd87592356496c2cf6480c72b9a6be7d": {
+    "title": "[Оголошення] Claude in Amazon Bedrock: Approved for Use in FedRAMP High and DoD IL4/5 Workloads",
+    "description": "Оголошення від Anthropic: Claude in Amazon Bedrock: Approved for Use in FedRAMP High and DoD IL4/5 Workloads",
+    "translated_at": "2025-07-02T06:52:18.685482+00:00"
+  },
+  "e941986ccde6f3b1b99f8b182df65e7c": {
+    "title": "[Продукт] Remote MCP support in Claude Code",
+    "description": "Продуктові оновлення від Anthropic: Remote MCP support in Claude Code",
+    "translated_at": "2025-07-02T06:52:18.685485+00:00"
+  },
+  "7d5250203790968304347c102757bac6": {
+    "title": "[Продукт] Turn ideas into interactive AI-powered apps",
+    "description": "Продуктові оновлення від Anthropic: Turn ideas into interactive AI-powered apps",
+    "translated_at": "2025-07-02T06:52:18.685487+00:00"
+  },
+  "7c76cfba751bd670b60bb0e9c551bb26": {
+    "title": "[Продукт] Build and share AI-powered apps with Claude",
+    "description": "Продуктові оновлення від Anthropic: Build and share AI-powered apps with Claude",
+    "translated_at": "2025-07-02T06:52:18.685489+00:00"
+  },
+  "0101c35b37a90971273dbaaf2b07c6be": {
+    "title": "[Новини] How People Use Claude for Support, Advice, and Companionship",
+    "description": "Останні новини від Anthropic: How People Use Claude for Support, Advice, and Companionship",
+    "translated_at": "2025-07-02T06:52:18.685492+00:00"
+  },
+  "04f0dd10672c47ff9943c0ea3e8c39c6": {
+    "title": "[Продукт] Представляємо the Anthropic Economic Futures Program",
+    "description": "Продуктові оновлення від Anthropic: Представляємо the Anthropic Economic Futures Program",
+    "translated_at": "2025-07-02T06:52:18.685494+00:00"
+  },
+  "d8ca842e3865ba40b831ae431a1eb6aa": {
+    "title": "[Новини] Представляємо the Anthropic Economic Index",
+    "description": "Останні новини від Anthropic: Представляємо the Anthropic Economic Index",
+    "translated_at": "2025-07-02T06:52:18.685496+00:00"
+  },
+  "32635deb2b9146bc8ab6e933e54f466e": {
+    "title": "[Новини] Anthropic залучає Серія E at $61.5B post-money оцінка",
+    "description": "Останні новини від Anthropic: Anthropic залучає Серія E at $61.5B post-money оцінка",
+    "translated_at": "2025-07-02T06:52:18.685498+00:00"
+  },
+  "3dc6c3e9f8626c7bff33246bf1d8411e": {
+    "title": "[Оголошення] Представляємо Claude 4",
+    "description": "Оголошення від Anthropic: Представляємо Claude 4",
+    "translated_at": "2025-07-02T06:52:18.685500+00:00"
+  },
+  "858750c1c6fa8e5af0f190ed8538e9c5": {
+    "title": "[Інженерія] Engineering at Anthropic: Inside the team building reliable AI systems",
+    "description": "Технічні розробки від Anthropic: Engineering at Anthropic: Inside the team building reliable AI systems",
+    "translated_at": "2025-07-02T06:56:45.366800+00:00"
+  },
+  "a0630199f6781f70ee78b1da51a2f7ea": {
+    "title": "[Інженерія] Claude Code: найкращі практики for agentic coding",
+    "description": "Технічні розробки від Anthropic: Claude Code: найкращі практики for agentic coding",
+    "translated_at": "2025-07-02T06:56:45.366927+00:00"
+  },
+  "f2f7ffb340a6d3711c4b9265bcd535c4": {
+    "title": "[Інженерія] How we built our multi-agent research system",
+    "description": "Технічні розробки від Anthropic: How we built our multi-agent research system",
+    "translated_at": "2025-07-02T06:56:45.366930+00:00"
+  },
+  "8f8e3a2d1e5997f5fc830e472ad0f0aa": {
+    "title": "[Інженерія] розширення для робочого столу: в один клік MCP server installation for Claude Desktop",
+    "description": "Технічні розробки від Anthropic: розширення для робочого столу: в один клік MCP server installation for Claude Desktop",
+    "translated_at": "2025-07-02T06:56:45.366933+00:00"
+  },
+  "b2a6021822cc1206b3463a1e80499059": {
+    "title": "[Безпека ШІ] Alignment Science Blog",
+    "description": "Дослідження безпеки ШІ від Anthropic: Alignment Science Blog",
+    "translated_at": "2025-07-02T06:56:50.699050+00:00"
+  },
+  "91d60b63d039865f54e74e7c9dc865c5": {
+    "title": "[Безпека ШІ] Discovering Language Model Behaviors with Model-Written\n                    Eоцінкаs",
+    "description": "Дослідження безпеки ШІ від Anthropic: Discovering Language Model Behaviors with Model-Written\n                    Eоцінкаs",
+    "translated_at": "2025-07-02T06:56:50.699215+00:00"
+  },
+  "db1d56c510431fac6a39f5ec544c20b9": {
+    "title": "[Безпека ШІ] Sleeper Agents: Training Deceptive LLMs that Persist\n                    Through Safety Training",
+    "description": "Дослідження безпеки ШІ від Anthropic: Sleeper Agents: Training Deceptive LLMs that Persist\n                    Through Safety Training",
+    "translated_at": "2025-07-02T06:56:50.699219+00:00"
+  },
+  "f3d0ddad7b1bc967114d18cca36c96e4": {
+    "title": "[Безпека ШІ] Simple Probes can Catch Sleeper Agents",
+    "description": "Дослідження безпеки ШІ від Anthropic: Simple Probes can Catch Sleeper Agents",
+    "translated_at": "2025-07-02T06:56:50.699222+00:00"
+  },
+  "b1c9d82c72f5df02a6839a9670bc1b87": {
+    "title": "[Безпека ШІ] Sabotage Eоцінкаs for Frontier Models",
+    "description": "Дослідження безпеки ШІ від Anthropic: Sabotage Eоцінкаs for Frontier Models",
+    "translated_at": "2025-07-02T06:56:50.699224+00:00"
+  },
+  "7b6b1ac0403c1ba9a2555f05337fb79c": {
+    "title": "[Безпека ШІ] How to Replicate and Extend our Alignment Faking Demo",
+    "description": "Дослідження безпеки ШІ від Anthropic: How to Replicate and Extend our Alignment Faking Demo",
+    "translated_at": "2025-07-02T06:56:50.699227+00:00"
+  },
+  "2f841fa2906d29fdcf2cdba159d6fa9b": {
+    "title": "[Безпека ШІ] Alignment Faking in Large мовні моделі",
+    "description": "Дослідження безпеки ШІ від Anthropic: Alignment Faking in Large мовні моделі",
+    "translated_at": "2025-07-02T06:56:50.699229+00:00"
+  },
+  "f10a19f3ec48606d276f9d92f0168b4e": {
+    "title": "[Безпека ШІ] Forecasting Rare Language Model Behaviors",
+    "description": "Дослідження безпеки ШІ від Anthropic: Forecasting Rare Language Model Behaviors",
+    "translated_at": "2025-07-02T06:56:50.699232+00:00"
+  },
+  "991a68ed7e7c80cda7f12e461558e438": {
+    "title": "[Безпека ШІ] Представляємо Anthropic's Safeguards Research Team",
+    "description": "Дослідження безпеки ШІ від Anthropic: Представляємо Anthropic's Safeguards Research Team",
+    "translated_at": "2025-07-02T06:56:50.699235+00:00"
+  },
+  "529c6f15942f210d28dccf39e5a03af1": {
+    "title": "[Безпека ШІ] Automated Researchers Can Subtly Sandbag",
+    "description": "Дослідження безпеки ШІ від Anthropic: Automated Researchers Can Subtly Sandbag",
+    "translated_at": "2025-07-02T06:56:50.699237+00:00"
+  },
+  "a03dc80e1392842cddadeb277e9670f5": {
+    "title": "[Безпека ШІ] Auditing мовні моделі for Hidden Objectives",
+    "description": "Дослідження безпеки ШІ від Anthropic: Auditing мовні моделі for Hidden Objectives",
+    "translated_at": "2025-07-02T06:56:50.699239+00:00"
+  },
+  "31e9e3739bdd55bada407aa6c9ea40a9": {
+    "title": "[Безпека ШІ] Alignment Faking Revisited: Improved Classifiers and Open Source Extensions",
+    "description": "Дослідження безпеки ШІ від Anthropic: Alignment Faking Revisited: Improved Classifiers and Open Source Extensions",
+    "translated_at": "2025-07-02T06:56:50.699241+00:00"
+  },
+  "b94d66a1d72e526170b93912a0912d4c": {
+    "title": "[Безпека ШІ] Reasoning Models Don't Always Say What They Think",
+    "description": "Дослідження безпеки ШІ від Anthropic: Reasoning Models Don't Always Say What They Think",
+    "translated_at": "2025-07-02T06:56:50.699243+00:00"
+  }
+}
