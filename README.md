@@ -6,6 +6,15 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green?logo=python)](https://python.org)
 [![RSS Feeds](https://img.shields.io/badge/RSS-4%20Feeds-orange?logo=rss)](feeds/)
 
+## 🎯 Available Feeds
+
+| Feed | Description | Articles | RSS URL |
+|------|-------------|----------|---------|
+| 🔥 **Complete** | All sources combined | 46+ | [`feed_anthropic_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml) |
+| 📰 **News** | Official announcements | 16+ | [`feed_anthropic_news.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml) |
+| 🔧 **Engineering** | Technical insights | 5+ | [`feed_anthropic_engineering.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml) |
+| 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
+
 ## 🎯 Project Overview
 
 AI-PULSE provides **complete coverage** of Anthropic updates through automated RSS generation from multiple critical sources that existing solutions miss:
@@ -52,15 +61,6 @@ python desktop_integration/gmail_integration.py setup \
 
 ## 📡 RSS Feeds
 
-### 🎯 Available Feeds
-
-| Feed | Description | Articles | RSS URL |
-|------|-------------|----------|---------|
-| 🔥 **Complete** | All sources combined | 46+ | [`feed_anthropic_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml) |
-| 📰 **News** | Official announcements | 16+ | [`feed_anthropic_news.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml) |
-| 🔧 **Engineering** | Technical insights | 5+ | [`feed_anthropic_engineering.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml) |
-| 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
-
 ### 📱 Quick Add to RSS Reader
 Copy and paste these URLs into your RSS reader:
 
@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_comp
 **📰 Individual Feeds**
 ```
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml
-https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml  
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml
 ```
 
@@ -85,7 +85,7 @@ https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alig
 - **Error handling**: Robust parsing with fallbacks
 - **Performance**: ~3.4 seconds for all feeds
 
-### 🖥️ Desktop Integration  
+### 🖥️ Desktop Integration
 - **macOS notifications** for high-priority updates
 - **Smart filtering** by priority (Critical/High/Medium)
 - **Local caching** to avoid duplicate notifications
@@ -108,7 +108,7 @@ ai-pulse/
 │   └── update_feeds.yml          # GitHub Actions automation
 ├── feed_generators/
 │   ├── feed_anthropic_news.py      # News parser
-│   ├── feed_anthropic_engineering.py # Engineering parser  
+│   ├── feed_anthropic_engineering.py # Engineering parser
 │   ├── feed_anthropic_alignment.py   # Alignment Science parser
 │   └── feed_anthropic_complete.py    # Combined feed generator
 ├── feeds/                         # Generated RSS files
@@ -176,7 +176,7 @@ Articles are automatically categorized by importance:
 - **Policy announcements** affecting AI development
 - **Major model releases** (Claude 4, etc.)
 
-### ⚡ HIGH Priority  
+### ⚡ HIGH Priority
 - **Engineering insights** and technical posts
 - **Research papers** and findings
 - **Product updates** and feature releases
@@ -389,7 +389,7 @@ Current performance (as of June 2025):
 
 ### Article Distribution
 - 🧠 **Alignment Science**: 54% (25/46)
-- 📰 **News**: 35% (16/46)  
+- 📰 **News**: 35% (16/46)
 - 🔧 **Engineering**: 11% (5/46)
 
 ## 📜 License
@@ -406,7 +406,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 🚀 Future Enhancements
 
 - [ ] **Multi-language support** for international content
-- [ ] **Sentiment analysis** for content prioritization  
+- [ ] **Sentiment analysis** for content prioritization
 - [ ] **AI summarization** of long articles
 - [ ] **Slack/Discord integration** for team notifications
 - [ ] **Analytics dashboard** for content trends

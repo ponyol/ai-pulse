@@ -50,54 +50,85 @@ def get_page_content(url: str) -> BeautifulSoup:
         raise
 
 def extract_articles(soup: BeautifulSoup) -> list:
-    """Extract engineering articles from the page"""
+    """Extract engineering articles with deduplication and better targeting"""
     articles = []
+    seen_urls = set()  # For deduplication
+    seen_titles = set()  # Additional title-based deduplication
     
-    # Look for engineering posts - may have different structure than news
-    post_elements = soup.find_all(['article', 'div', 'section'], 
-                                 class_=re.compile(r'.*post.*|.*article.*|.*featured.*', re.I))
+    # Find engineering-specific elements with multiple strategies
     
-    # Also check for simple links and headers
-    if not post_elements:
-        post_elements = soup.find_all(['a', 'h1', 'h2', 'h3'])
+    # Strategy 1: Look for article/post containers
+    article_elements = soup.find_all(['article', 'div', 'section'], 
+                                   class_=re.compile(r'.*post.*|.*article.*|.*card.*|.*item.*|.*entry.*', re.I))
     
-    logger.info(f"🔍 Found {len(post_elements)} potential engineering post elements")
+    # Strategy 2: Look for links to engineering content
+    engineering_links = soup.find_all('a', href=re.compile(r'.*/engineering/.*'))
+    article_elements.extend(engineering_links)
     
-    for element in post_elements:
+    # Strategy 3: Look for technical headings
+    technical_headings = soup.find_all(['h1', 'h2', 'h3'], 
+                                     string=re.compile(r'.*(technical|engineering|system|code|mcp|desktop).*', re.I))
+    for heading in technical_headings:
+        parent = heading.find_parent(['article', 'div', 'section'])
+        if parent:
+            article_elements.append(parent)
+    
+    logger.info(f"🔍 Found {len(article_elements)} potential engineering elements")
+    
+    processed_count = 0
+    for element in article_elements[:100]:  # Reasonable limit
         try:
             article = extract_single_article(element)
             if article:
-                articles.append(article)
+                # Deduplication by URL and title
+                url = article['url']
+                title = article['title'].lower().strip()
+                
+                if url not in seen_urls and title not in seen_titles:
+                    articles.append(article)
+                    seen_urls.add(url)
+                    seen_titles.add(title)
+                    logger.debug(f"✅ Added: {article['title'][:50]}...")
+                else:
+                    logger.debug(f"🔄 Skipped duplicate: {article['title'][:50]}...")
+            
+            processed_count += 1
+                    
         except Exception as e:
-            logger.debug(f"Error processing engineering post: {e}")
+            logger.debug(f"Error processing engineering element: {e}")
             continue
     
-    # If no articles found, create a default entry about the engineering team
-    if not articles:
-        articles.append({
-            'title': 'Anthropic Engineering Team',
-            'url': ENGINEERING_URL,
-            'category': 'Engineering',
-            'description': 'Inside the team building reliable AI systems at Anthropic',
-            'pub_date': datetime.now(timezone.utc)
-        })
-    
-    logger.info(f"🔧 Extracted {len(articles)} engineering articles")
+    logger.info(f"🔧 Extracted {len(articles)} unique engineering articles from {processed_count} elements")
     return articles
 
 def extract_single_article(element) -> dict:
-    """Extract information from a single engineering post element"""
+    """Extract information from a single engineering article element with quality filtering"""
     article = {}
     
-    # Try to find title
-    title_elem = element.find(['h1', 'h2', 'h3', 'h4']) or element
+    # Try to find title - be more selective
+    title_elem = element.find(['h1', 'h2', 'h3', 'h4'])
+    if not title_elem:
+        title_elem = element.find('strong') or element
+    
     if title_elem:
         title_text = title_elem.get_text(strip=True)
-        # Engineering posts typically have meaningful titles
-        if len(title_text) > 5 and 'engineering' not in title_text.lower():
-            article['title'] = title_text
+        
+        # Filter out junk titles
+        junk_patterns = [
+            'engineering blog', 'technical insights', 'engineering team',
+            'contact', 'more', 'latest', 'featured'
+        ]
+        
+        # Clean up the title  
+        clean_title = title_text
+        
+        # Skip if junk or too short/long
+        if (len(clean_title) > 10 and len(clean_title) < 250 and 
+            not any(junk in clean_title.lower() for junk in junk_patterns)):
+            article['title'] = clean_title
     
-    # Try to find URL
+    # Try to find URL with better validation
+    href = None
     if element.name == 'a':
         href = element.get('href')
     else:
@@ -105,20 +136,43 @@ def extract_single_article(element) -> dict:
         href = link_elem.get('href') if link_elem else None
     
     if href:
-        article['url'] = urljoin(BASE_URL, href)
+        # Filter out bad links
+        bad_patterns = ['mailto:', 'javascript:', '#', 'tel:']
+        if not any(pattern in href.lower() for pattern in bad_patterns):
+            # Handle relative and absolute URLs properly
+            if href.startswith('http'):
+                article['url'] = href
+            elif href.startswith('/'):
+                article['url'] = BASE_URL + href
+            else:
+                article['url'] = urljoin(ENGINEERING_URL, href)
+    
+    # Try to extract better description
+    description = ""
+    desc_elem = element.find(['p', 'div'], class_=re.compile(r'.*desc.*|.*summary.*|.*excerpt.*|.*content.*', re.I))
+    if desc_elem:
+        description = desc_elem.get_text(strip=True)[:200]
     
     # Look for engineering-related content
     element_text = element.get_text().lower()
-    engineering_keywords = ['coding', 'development', 'technical', 'engineering', 
-                           'architecture', 'system', 'api', 'infrastructure']
+    engineering_keywords = ['engineering', 'technical', 'system', 'architecture', 
+                           'implementation', 'design', 'development', 'code',
+                           'infrastructure', 'platform', 'api', 'framework',
+                           'performance', 'scalability', 'mcp', 'desktop']
     
     has_engineering_content = any(keyword in element_text for keyword in engineering_keywords)
     
-    # Only return if we have title and URL, and it seems engineering-related
+    # Only return if we have title, URL, and engineering-related content
     if 'title' in article and 'url' in article and has_engineering_content:
         article['category'] = 'Engineering'
         article['pub_date'] = datetime.now(timezone.utc)
-        article['description'] = f"Engineering insights from Anthropic: {article['title']}"
+        
+        # Better description
+        if description:
+            article['description'] = f"Engineering insights: {description[:120]}..."
+        else:
+            article['description'] = f"Engineering insights from Anthropic: {article['title']}"
+        
         return article
     
     return None
