@@ -4,16 +4,25 @@
 
 [![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-blue?logo=github)](https://github.com/your-username/ai-pulse)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green?logo=python)](https://python.org)
-[![RSS Feeds](https://img.shields.io/badge/RSS-4%20Feeds-orange?logo=rss)](feeds/)
+[![RSS Feeds](https://img.shields.io/badge/RSS-8%20Feeds-orange?logo=rss)](feeds/)
 
 ## 🎯 Available Feeds
 
+### 🌍 English Feeds
 | Feed | Description | Articles | RSS URL |
 |------|-------------|----------|---------|
 | 🔥 **Complete** | All sources combined | 46+ | [`feed_anthropic_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml) |
 | 📰 **News** | Official announcements | 16+ | [`feed_anthropic_news.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml) |
 | 🔧 **Engineering** | Technical insights | 5+ | [`feed_anthropic_engineering.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml) |
 | 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
+
+### 🇺🇦 Ukrainian Feeds (Українські фіди)
+| Feed | Description | Articles | RSS URL |
+|------|-------------|----------|---------|
+| 🔥 **Complete UA** | Всі джерела українською | 46+ | [`feed_anthropic_complete_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete_ua.xml) |
+| 📰 **News UA** | Офіційні оголошення | 16+ | [`feed_anthropic_news_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news_ua.xml) |
+| 🔧 **Engineering UA** | Технічні інсайти | 5+ | [`feed_anthropic_engineering_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering_ua.xml) |
+| 🧠 **Alignment UA** | Дослідження безпеки | 25+ | [`feed_anthropic_alignment_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment_ua.xml) |
 
 ## 🎯 Project Overview
 
@@ -64,16 +73,28 @@ python desktop_integration/gmail_integration.py setup \
 ### 📱 Quick Add to RSS Reader
 Copy and paste these URLs into your RSS reader:
 
-**🔥 Recommended: Complete Feed**
+**🔥 Recommended: Complete Feed (English)**
 ```
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml
 ```
 
-**📰 Individual Feeds**
+**🇺🇦 Recommended: Complete Feed (Ukrainian)**
+```
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete_ua.xml
+```
+
+**📰 Individual Feeds (English)**
 ```
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml
+```
+
+**🇺🇦 Individual Feeds (Ukrainian / Українською)**
+```
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news_ua.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering_ua.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment_ua.xml
 ```
 
 ⏰ **Updates**: Every 4 hours + full rescan Mondays 8AM UTC
