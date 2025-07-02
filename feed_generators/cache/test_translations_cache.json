@@ -1,0 +1,26 @@
+{
+  "0d538eb4c4e580c082f545c82349e6de": {
+    "title": "[Новини] Представляємо Claude 4",
+    "description": "Останні новини від Anthropic: Представляємо Claude 4",
+    "translated_at": "2025-07-02T07:33:35.311351+00:00",
+    "translation_method": "mock"
+  },
+  "473a5e54281b6955014fd991c40da1c6": {
+    "title": "[Інженерія] Building Scalable AI Systems",
+    "description": "Технічні розробки від Anthropic: Building Scalable AI Systems",
+    "translated_at": "2025-07-02T07:33:35.311753+00:00",
+    "translation_method": "mock"
+  },
+  "b45427cacb85594a09793ecda5a0974d": {
+    "title": "[Безпека ШІ] Alignment Faking in Large мовні моделі",
+    "description": "Дослідження безпеки ШІ від Anthropic: Alignment Faking in Large мовні моделі",
+    "translated_at": "2025-07-02T07:33:35.311934+00:00",
+    "translation_method": "mock"
+  },
+  "74ba1ddb6ac2981794793c8f7e3e1e58": {
+    "title": "[Новини] Claude розширення для робочого столу",
+    "description": "Останні новини від Anthropic: Claude розширення для робочого столу",
+    "translated_at": "2025-07-02T07:33:35.312094+00:00",
+    "translation_method": "mock"
+  }
+}

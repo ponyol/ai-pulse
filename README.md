@@ -17,6 +17,8 @@
 | 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
 
 ### 🇺🇦 Ukrainian Feeds (Українські фіди)
+**⚡ Powered by Mistral AI for high-quality translations**
+
 | Feed | Description | Articles | RSS URL |
 |------|-------------|----------|---------|
 | 🔥 **Complete UA** | Всі джерела українською | 46+ | [`feed_anthropic_complete_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete_ua.xml) |
@@ -120,6 +122,47 @@ https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alig
 - **Category detection**: Auto-categorizes content
 - **Deduplication**: Prevents duplicate entries
 - **URL validation**: Ensures working links
+## 🌐 Translation Setup
+
+### 🤖 Mistral API Configuration
+AI-PULSE uses **Mistral AI** for high-quality Ukrainian translations. The system automatically falls back to mock translations if the API is unavailable.
+
+#### 🔧 For GitHub Actions (Repository Secrets)
+1. **Get Mistral API Key:**
+   - Visit [Mistral AI Console](https://console.mistral.ai/)
+   - Create account and generate API key
+   - Copy your API key
+
+2. **Add GitHub Secret:**
+   - Go to your repository → Settings → Secrets and variables → Actions
+   - Click "New repository secret"
+   - Name: `MISTRAL_API_KEY`
+   - Value: Your Mistral API key
+   - Click "Add secret"
+
+3. **Verify Setup:**
+   - GitHub Actions will automatically use Mistral API for translations
+   - Check workflow logs for "🇺🇦 Translating via Mistral API..."
+
+#### 🖥️ For Local Development
+```bash
+# Set environment variable
+export MISTRAL_API_KEY="your_mistral_api_key_here"
+
+# Test translation engine
+cd feed_generators
+python test_mistral_translation.py
+
+# Run feed generation with translations
+python run_all_feeds.py
+```
+
+#### 💡 Translation Quality
+- **With Mistral API:** High-quality contextual translations
+- **Without API:** Fallback to rule-based mock translations
+- **Caching:** All translations cached to minimize API calls
+- **Cost Optimization:** Only new content is translated
+
 ## 🏗️ Technical Architecture
 
 ### 📦 Project Structure
@@ -144,7 +187,8 @@ ai-pulse/
 - **Python 3.9+**: Core runtime
 - **BeautifulSoup4**: HTML parsing
 - **FeedGen**: RSS generation
-- **Requests**: HTTP client
+- **Requests/aiohttp**: HTTP clients
+- **Mistral AI**: Ukrainian translations
 - **GitHub Actions**: CI/CD automation
 
 ### ⚙️ How It Works
