@@ -332,11 +332,33 @@ class TranslationEngine:
             cache_key = self._generate_cache_key(article['title'], article['description'])
             
             if cache_key in self.cache:
-                # Use cached translation
-                cached_translation = self.cache[cache_key].copy()
-                cached_translation.update(article)  # Keep original metadata
-                cached_translation['title'] = self.cache[cache_key]['title']
-                cached_translation['description'] = self.cache[cache_key]['description']
+                # Use cached translation with Ukrainian suffixes
+                cached_translation = article.copy()  # Keep original metadata
+                cached_translation['title_ua'] = self.cache[cache_key]['title']
+                cached_translation['description_ua'] = self.cache[cache_key]['description']
+                
+                # Translate category if present
+                if 'category' in article:
+                    category_mapping = {
+                        'News': 'Новини',
+                        'Product': 'Продукт',
+                        'Research': 'Дослідження',
+                        'API Update': 'Оновлення API',
+                        'Release': 'Реліз',
+                        'Deprecation': 'Вилучення',
+                        'Fix': 'Виправлення',
+                        'New Feature': 'Нова функція',
+                        'Feature Update': 'Оновлення функції',
+                        'Update': 'Оновлення',
+                        'Policy': 'Політика',
+                        'Announcements': 'Оголошення',
+                        'Interpretability': 'Інтерпретованість',
+                        'Alignment': 'Узгодження'
+                    }
+                    cached_translation['category_ua'] = category_mapping.get(article['category'], article['category'])
+                else:
+                    cached_translation['category_ua'] = category_mapping.get(category, category)
+                
                 cached_articles.append(cached_translation)
                 logger.debug(f"📚 Using cached translation: {article['title'][:30]}...")
             else:
@@ -384,10 +406,32 @@ class TranslationEngine:
                     'translation_method': translation_method
                 }
                 
-                # Create translated article
+                # Create translated article with Ukrainian suffixes
                 translated_article = original.copy()
-                translated_article['title'] = translation['title']
-                translated_article['description'] = translation['description']
+                translated_article['title_ua'] = translation['title']
+                translated_article['description_ua'] = translation['description']
+                # Translate category if present
+                if 'category' in original:
+                    category_mapping = {
+                        'News': 'Новини',
+                        'Product': 'Продукт',
+                        'Research': 'Дослідження',
+                        'API Update': 'Оновлення API',
+                        'Release': 'Реліз',
+                        'Deprecation': 'Вилучення',
+                        'Fix': 'Виправлення',
+                        'New Feature': 'Нова функція',
+                        'Feature Update': 'Оновлення функції',
+                        'Update': 'Оновлення',
+                        'Policy': 'Політика',
+                        'Announcements': 'Оголошення',
+                        'Interpretability': 'Інтерпретованість',
+                        'Alignment': 'Узгодження'
+                    }
+                    translated_article['category_ua'] = category_mapping.get(original['category'], original['category'])
+                else:
+                    translated_article['category_ua'] = category_mapping.get(category, category)
+                
                 translated_articles.append(translated_article)
                 
                 logger.debug(f"✅ Translated: {original['title'][:30]}... → {translation['title'][:30]}...")

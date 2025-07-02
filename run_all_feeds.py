@@ -43,23 +43,33 @@ def main():
     
     # List of generators to run - ENGLISH FIRST, then Ukrainian
     generators = [
-        # English feeds (existing) - MUST run first
+        # Anthropic English feeds - MUST run first
         ('feed_anthropic_news', 'Anthropic News'),
         ('feed_anthropic_engineering', 'Anthropic Engineering'),
         ('feed_anthropic_alignment', 'Anthropic Alignment'),
-        ('feed_anthropic_complete', 'Complete Feed (Combined)'),
+        ('feed_anthropic_complete', 'Anthropic Complete Feed'),
         
-        # Ukrainian feeds (new) - run after English feeds are ready
+        # Mistral English feeds - MUST run first
+        ('feed_mistral_news', 'Mistral AI News'),
+        ('feed_mistral_changelog', 'Mistral AI Changelog'),
+        ('feed_mistral_complete', 'Mistral AI Complete Feed'),
+        
+        # Anthropic Ukrainian feeds - run after English feeds are ready
         ('feed_anthropic_news_ua', 'Anthropic News (Ukrainian)'),
         ('feed_anthropic_engineering_ua', 'Anthropic Engineering (Ukrainian)'),
         ('feed_anthropic_alignment_ua', 'Anthropic Alignment (Ukrainian)'),
-        ('feed_anthropic_complete_ua', 'Complete Feed (Ukrainian)')
+        ('feed_anthropic_complete_ua', 'Anthropic Complete Feed (Ukrainian)'),
+        
+        # Mistral Ukrainian feeds - run after English feeds are ready
+        ('feed_mistral_news_ua', 'Mistral AI News (Ukrainian)'),
+        ('feed_mistral_changelog_ua', 'Mistral AI Changelog (Ukrainian)'),
+        ('feed_mistral_complete_ua', 'Mistral AI Complete Feed (Ukrainian)')
     ]
     
     success_count = 0
     total_count = len(generators)
-    english_feeds_count = 4
-    ukrainian_feeds_count = 4
+    english_feeds_count = 7  # 4 Anthropic + 3 Mistral
+    ukrainian_feeds_count = 7  # 4 Anthropic + 3 Mistral
     
     logger.info(f"📊 Total feeds to generate: {total_count} ({english_feeds_count} English + {ukrainian_feeds_count} Ukrainian)")
     

@@ -1,14 +1,16 @@
-# 🤖 AI-PULSE: Complete Anthropic RSS Monitor
+# 🤖 AI-PULSE: Complete AI Companies RSS Monitor
 
-**Production-ready RSS monitoring system for comprehensive Anthropic updates**
+**Production-ready RSS monitoring system for comprehensive Anthropic & Mistral AI updates**
 
-[![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-blue?logo=github)](https://github.com/your-username/ai-pulse)
+[![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-blue?logo=github)](https://github.com/ponyol/ai-pulse)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green?logo=python)](https://python.org)
-[![RSS Feeds](https://img.shields.io/badge/RSS-8%20Feeds-orange?logo=rss)](feeds/)
+[![RSS Feeds](https://img.shields.io/badge/RSS-14%20Feeds-orange?logo=rss)](feeds/)
 
 ## 🎯 Available Feeds
 
-### 🌍 English Feeds
+### 🏢 Anthropic
+
+#### 🌍 English Feeds
 | Feed | Description | Articles | RSS URL |
 |------|-------------|----------|---------|
 | 🔥 **Complete** | All sources combined | 46+ | [`feed_anthropic_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml) |
@@ -16,7 +18,7 @@
 | 🔧 **Engineering** | Technical insights | 5+ | [`feed_anthropic_engineering.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml) |
 | 🧠 **Alignment** | Safety research | 25+ | [`feed_anthropic_alignment.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml) |
 
-### 🇺🇦 Ukrainian Feeds (Українські фіди)
+#### 🇺🇦 Ukrainian Feeds (Українські фіди)
 **⚡ Powered by Mistral AI for high-quality translations**
 
 | Feed | Description | Articles | RSS URL |
@@ -26,11 +28,29 @@
 | 🔧 **Engineering UA** | Технічні інсайти | 5+ | [`feed_anthropic_engineering_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering_ua.xml) |
 | 🧠 **Alignment UA** | Дослідження безпеки | 25+ | [`feed_anthropic_alignment_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment_ua.xml) |
 
+### 🌟 Mistral AI
+
+#### 🌍 English Feeds
+| Feed | Description | Articles | RSS URL |
+|------|-------------|----------|---------|
+| 🔥 **Complete** | News + API updates | 14+ | [`feed_mistral_complete.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_complete.xml) |
+| 📰 **News** | Product announcements | 1+ | [`feed_mistral_news.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_news.xml) |
+| 🔧 **Changelog** | API updates & releases | 13+ | [`feed_mistral_changelog.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_changelog.xml) |
+
+#### 🇺🇦 Ukrainian Feeds (Українські фіди)
+**⚡ Powered by Mistral AI for high-quality translations**
+
+| Feed | Description | Articles | RSS URL |
+|------|-------------|----------|---------|
+| 🔥 **Complete UA** | Новини + оновлення API | 14+ | [`feed_mistral_complete_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_complete_ua.xml) |
+| 📰 **News UA** | Оголошення продуктів | 1+ | [`feed_mistral_news_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_news_ua.xml) |
+| 🔧 **Changelog UA** | Оновлення API та релізи | 13+ | [`feed_mistral_changelog_ua.xml`](https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_changelog_ua.xml) |
+
 ## 🎯 Project Overview
 
-AI-PULSE provides **complete coverage** of Anthropic updates through automated RSS generation from multiple critical sources that existing solutions miss:
+AI-PULSE provides **complete coverage** of leading AI companies through automated RSS generation from multiple critical sources that existing solutions miss:
 
-### 📊 Coverage Comparison
+### 📊 Anthropic Coverage Comparison
 | Source | Existing RSS | AI-PULSE |
 |--------|-------------|----------|
 | anthropic.com/news | ✅ Basic | ✅ Enhanced |
@@ -38,11 +58,19 @@ AI-PULSE provides **complete coverage** of Anthropic updates through automated R
 | alignment.anthropic.com | ❌ Missing | ✅ **CRITICAL** |
 | anthropic.com/research | ❌ Missing | ✅ **NEW** |
 
+### 🌟 Mistral AI Coverage (NEW!)
+| Source | Existing RSS | AI-PULSE |
+|--------|-------------|----------|
+| mistral.ai/news | ❌ Missing | ✅ **NEW** |
+| docs.mistral.ai/changelog | ❌ Missing | ✅ **CRITICAL** |
+
 ### 🔥 Why This Matters
 - **Engineering insights** from building AI systems
-- **Safety research** from Alignment Science team
-- **Latest research** papers and findings
-- **Combined feed** for complete monitoring
+- **Safety research** from Alignment Science team  
+- **API updates** and technical changes
+- **Product announcements** and model releases
+- **Combined feeds** for complete monitoring
+- **Ukrainian translations** for broader accessibility
 
 ## 🚀 Quick Start
 
@@ -75,28 +103,46 @@ python desktop_integration/gmail_integration.py setup \
 ### 📱 Quick Add to RSS Reader
 Copy and paste these URLs into your RSS reader:
 
-**🔥 Recommended: Complete Feed (English)**
+**🔥 Recommended: Complete Feeds (English)**
 ```
+# Anthropic (46+ articles)
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete.xml
+
+# Mistral AI (14+ articles)  
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_complete.xml
 ```
 
-**🇺🇦 Recommended: Complete Feed (Ukrainian)**
+**🇺🇦 Recommended: Complete Feeds (Ukrainian)**
 ```
+# Anthropic українською (46+ статей)
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_complete_ua.xml
+
+# Mistral AI українською (14+ статей)
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_complete_ua.xml
 ```
 
 **📰 Individual Feeds (English)**
 ```
+# Anthropic
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment.xml
+
+# Mistral AI
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_news.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_changelog.xml
 ```
 
 **🇺🇦 Individual Feeds (Ukrainian / Українською)**
 ```
+# Anthropic
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_news_ua.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_engineering_ua.xml
 https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_anthropic_alignment_ua.xml
+
+# Mistral AI
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_news_ua.xml
+https://raw.githubusercontent.com/ponyol/ai-pulse/main/feeds/feed_mistral_changelog_ua.xml
 ```
 
 ⏰ **Updates**: Every 4 hours + full rescan Mondays 8AM UTC
