@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Complete Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Mon, 10 Nov 2025 16:31:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 20:27:23 +0000</lastBuildDate>
     <item>
       <title>[Безпека ШІ] Reasoning Models Don't Always Say What They Think</title>
       <link>https://www.anthropic.com/research/reasoning-models-dont-say-think</link>
@@ -15,7 +15,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/reasoning-models-dont-say-think</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking Revisited: Improved Classifiers and Open Source Extensions</title>
@@ -23,7 +23,7 @@
       <description>AI Safety research: We present a replication and extension of an alignment faking model organism.... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-revisited/</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Auditing Language Models for Hidden Objectives</title>
@@ -32,7 +32,7 @@
                     ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/auditing-hidden-objectives</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Automated Researchers Can Subtly Sandbag</title>
@@ -41,7 +41,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/automated-researchers-sandbag/</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Introducing Anthropic's Safeguards Research Team</title>
@@ -49,7 +49,7 @@
       <description>AI Safety research: We're launching a new research team focused on mitigating the post-deployment risks of AI systems.... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Forecasting Rare Language Model Behaviors</title>
@@ -58,7 +58,7 @@
                     tes... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/forecasting-rare-behaviors</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking in Large Language Models</title>
@@ -67,7 +67,7 @@
                     have different views during training, while ac... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] How to Replicate and Extend our Alignment Faking Demo</title>
@@ -76,7 +76,7 @@
                     our demonstration of alignment faking, and pr... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2024/how-to-alignment-faking/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sabotage Evaluations for Frontier Models</title>
@@ -85,7 +85,7 @@
                     sabotage tasks, if they were trying to? We describe... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sabotage-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Simple Probes can Catch Sleeper Agents</title>
@@ -94,7 +94,7 @@
                     technique, can detect when backdoored "sleeper agent... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sleeper Agents: Training Deceptive LLMs that Persist
@@ -104,7 +104,7 @@
                     despite our best efforts at alignment trainin... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Discovering Language Model Behaviors with Model-Written
@@ -114,7 +114,7 @@
                     (LM) evaluations with LMs, significantly redu... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Science Blog</title>
@@ -123,7 +123,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/strengthening-red-teams/</guid>
       <category>Alignment Science</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Effective context engineering for AI agents</title>
@@ -131,7 +131,7 @@
       <description>Engineering insights: Effective context engineering for AI agentsSep 29, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Desktop Extensions: One-click MCP server installation for Claude Desktop</title>
@@ -139,7 +139,7 @@
       <description>Engineering insights: Desktop Extensions: One-click MCP server installation for Claude DesktopJun 26, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] How we built our multi-agent research system</title>
@@ -147,7 +147,7 @@
       <description>Engineering insights: How we built our multi-agent research systemJun 13, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Claude Code: Best practices for agentic coding</title>
@@ -155,7 +155,7 @@
       <description>Engineering insights: Claude Code: Best practices for agentic codingApr 18, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Engineering at Anthropic: Inside the team building reliable AI systems</title>
@@ -163,7 +163,7 @@
       <description>Engineering insights from Anthropic: Engineering at Anthropic: Inside the team building reliable AI systems (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://console.anthropic.com/</guid>
       <category>Engineering</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Introducing Claude Sonnet 4.5</title>
@@ -171,7 +171,7 @@
       <description>Latest from Anthropic: Introducing Claude Sonnet 4.5 (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-5</guid>
       <category>Policy</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Thoughts on America’s AI Action Plan</title>
@@ -179,7 +179,7 @@
       <description>Latest from Anthropic: Thoughts on America’s AI Action Plan (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan</guid>
       <category>Policy</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic raises $13B Series F at $183B post-money valuation</title>
@@ -187,7 +187,7 @@
       <description>Latest from Anthropic: Anthropic raises $13B Series F at $183B post-money valuation (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
@@ -195,7 +195,7 @@
       <description>Latest from Anthropic: Anthropic Economic Index report: Uneven geographic and enterprise AI adoption (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</guid>
       <category>Research</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Follow AnthropicAnthropic on XLinkedIn</title>
@@ -203,7 +203,7 @@
       <description>Latest from Anthropic: Follow AnthropicAnthropic on XLinkedIn (Джерело: News)</description>
       <guid isPermaLink="false">https://x.com/AnthropicAI</guid>
       <category>News</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Media assetsDownload press kit</title>
@@ -211,7 +211,7 @@
       <description>Latest from Anthropic: Media assetsDownload press kit (Джерело: News)</description>
       <guid isPermaLink="false">https://anthropic.com/press-kit</guid>
       <category>News</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] New offices in Paris and Munich expand Anthropic’s European presence</title>
@@ -219,7 +219,7 @@
       <description>AnnouncementsNew offices in Paris and Munich expand Anthropic’s European presence... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence</guid>
       <category>Product</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Launching the Anthropic Economic Futures Programme in the UK and Europe</title>
@@ -227,7 +227,7 @@
       <description>Economic ResearchLaunching the Anthropic Economic Futures Programme in the UK and Europe... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-uk-europe</guid>
       <category>Research</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic and Iceland announce one of the world’s first national AI education pilots</title>
@@ -235,7 +235,7 @@
       <description>AnnouncementsAnthropic and Iceland announce one of the world’s first national AI education pilots... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation</title>
@@ -243,7 +243,7 @@
       <description>AnnouncementsCognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-partnership</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute</title>
@@ -251,7 +251,7 @@
       <description>AnnouncementsAnthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/opening-our-tokyo-office</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Advancing Claude for Financial Services</title>
@@ -259,7 +259,7 @@
       <description>AnnouncementsAdvancing Claude for Financial Services... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/advancing-claude-for-financial-services</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Seoul becomes Anthropic’s third office in Asia-Pacific as we continue our international growth</title>
@@ -267,7 +267,7 @@
       <description>AnnouncementsSeoul becomes Anthropic’s third office in Asia-Pacific as we continue our international growth... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Expanding our use of Google Cloud TPUs and Services</title>
@@ -275,7 +275,7 @@
       <description>AnnouncementsExpanding our use of Google Cloud TPUs and Services... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] A statement from Dario Amodei on Anthropic's commitment to American AI leadership</title>
@@ -283,7 +283,7 @@
       <description>AnnouncementsA statement from Dario Amodei on Anthropic's commitment to American AI leadership... (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 10 Nov 2025 16:31:48 +0000</pubDate>
+      <pubDate>Mon, 10 Nov 2025 20:27:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
