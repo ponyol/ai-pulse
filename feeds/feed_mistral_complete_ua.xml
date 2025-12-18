@@ -12,7 +12,7 @@
       <link>https://mistral.ai/</link>
     </image>
     <language>uk</language>
-    <lastBuildDate>Thu, 18 Dec 2025 12:51:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 16:35:40 +0000</lastBuildDate>
     <item>
       <title>[Changelog] [Новини] Update - Jan. 11, 2024</title>
       <link>https://docs.mistral.ai/getting-started/changelog#update-jan-11-2024</link>
@@ -144,14 +144,14 @@
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Новини] [Новини] Представляємо: Devstral 2 and Mistral Vibe CLI.</title>
-      <link>https://mistral.ai/news/devstral-2-vibe-cli</link>
+      <title>[Новини] [Новини] Представляємо Mistral OCR 3</title>
+      <link>https://mistral.ai/news/mistral-ocr-3</link>
       <description>Джерело: Новини
 
-Останні новини від Anthropic: Представляємо: Devstral 2 and Mistral Vibe CLI.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/devstral-2-vibe-cli</guid>
+Останні новини від Anthropic: Представляємо Mistral OCR 3</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-ocr-3</guid>
       <category>Новини</category>
-      <pubDate>Thu, 18 Dec 2025 12:51:10 +0000</pubDate>
+      <pubDate>Thu, 18 Dec 2025 16:34:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
