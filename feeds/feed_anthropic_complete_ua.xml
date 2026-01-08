@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Complete Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Thu, 08 Jan 2026 04:42:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 08:36:23 +0000</lastBuildDate>
     <item>
       <title>[Безпека ШІ] Towards training-time mitigations for alignment faking in RL</title>
       <link>https://alignment.anthropic.com/2025/alignment-faking-mitigations/</link>
@@ -15,7 +15,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-mitigations/</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Reasoning Models Don't Always Say What They Think</title>
@@ -24,7 +24,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/reasoning-models-dont-say-think</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking Revisited: Improved Classifiers and Open Source Extensions</title>
@@ -32,7 +32,7 @@
       <description>AI Safety research: We present a replication and extension of an alignment faking model organism.... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-revisited/</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Auditing Language Models for Hidden Objectives</title>
@@ -41,7 +41,7 @@
                     ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/auditing-hidden-objectives</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Automated Researchers Can Subtly Sandbag</title>
@@ -50,7 +50,7 @@
                    ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/automated-researchers-sandbag/</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Introducing Anthropic's Safeguards Research Team</title>
@@ -58,7 +58,7 @@
       <description>AI Safety research: We're launching a new research team focused on mitigating the post-deployment risks of AI systems.... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Forecasting Rare Language Model Behaviors</title>
@@ -67,7 +67,7 @@
                     tes... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/forecasting-rare-behaviors</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Faking in Large Language Models</title>
@@ -76,7 +76,7 @@
                     have different views during training, while ac... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] How to Replicate and Extend our Alignment Faking Demo</title>
@@ -85,7 +85,7 @@
                     our demonstration of alignment faking, and pr... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2024/how-to-alignment-faking/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sabotage Evaluations for Frontier Models</title>
@@ -94,7 +94,7 @@
                     sabotage tasks, if they were trying to? We describe... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sabotage-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Simple Probes can Catch Sleeper Agents</title>
@@ -103,7 +103,7 @@
                     technique, can detect when backdoored "sleeper agent... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Sleeper Agents: Training Deceptive LLMs that Persist
@@ -113,7 +113,7 @@
                     despite our best efforts at alignment trainin... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Discovering Language Model Behaviors with Model-Written
@@ -123,7 +123,7 @@
                     (LM) evaluations with LMs, significantly redu... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Безпека ШІ] Alignment Science Blog</title>
@@ -132,7 +132,7 @@
                     ... (Джерело: Alignment Science)</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/bloom-auto-evals/</guid>
       <category>Alignment Science</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Effective harnesses for long-running agents</title>
@@ -140,7 +140,7 @@
       <description>Engineering insights: FeaturedEffective harnesses for long-running agentsAgents still face challenges working across many context windows. We ... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Introducing advanced tool use on the Claude Developer Platform</title>
@@ -148,7 +148,7 @@
       <description>Engineering insights: Introducing advanced tool use on the Claude Developer PlatformNov 24, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Effective context engineering for AI agents</title>
@@ -156,7 +156,7 @@
       <description>Engineering insights: Effective context engineering for AI agentsSep 29, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Desktop Extensions: One-click MCP server installation for Claude Desktop</title>
@@ -164,7 +164,7 @@
       <description>Engineering insights: Desktop Extensions: One-click MCP server installation for Claude DesktopJun 26, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] How we built our multi-agent research system</title>
@@ -172,7 +172,7 @@
       <description>Engineering insights: How we built our multi-agent research systemJun 13, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Claude Code: Best practices for agentic coding</title>
@@ -180,7 +180,7 @@
       <description>Engineering insights: Claude Code: Best practices for agentic codingApr 18, 2025... (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Інженерія] Engineering at Anthropic: Inside the team building reliable AI systems</title>
@@ -188,7 +188,7 @@
       <description>Engineering insights from Anthropic: Engineering at Anthropic: Inside the team building reliable AI systems (Джерело: Engineering)</description>
       <guid isPermaLink="false">https://console.anthropic.com/</guid>
       <category>Engineering</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Download press kit</title>
@@ -196,7 +196,7 @@
       <description>Latest from Anthropic: Download press kit (Джерело: News)</description>
       <guid isPermaLink="false">https://anthropic.com/press-kit</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Introducing Claude Opus 4.5</title>
@@ -204,7 +204,7 @@
       <description>Latest from Anthropic: Introducing Claude Opus 4.5 (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-5</guid>
       <category>Announcements</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Introducing Claude Sonnet 4.5</title>
@@ -212,7 +212,7 @@
       <description>Latest from Anthropic: Introducing Claude Sonnet 4.5 (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-5</guid>
       <category>Product</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Introducing Claude Haiku 4.5</title>
@@ -220,7 +220,7 @@
       <description>Latest from Anthropic: Introducing Claude Haiku 4.5 (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-haiku-4-5</guid>
       <category>Product</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Anthropic raises $13B Series F at $183B post-money valuation</title>
@@ -228,7 +228,7 @@
       <description>Latest from Anthropic: Anthropic raises $13B Series F at $183B post-money valuation (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
       <category>Announcements</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Thoughts on America’s AI Action Plan</title>
@@ -236,7 +236,7 @@
       <description>Latest from Anthropic: Thoughts on America’s AI Action Plan (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan</guid>
       <category>Policy</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Dec 19, 2025PolicySharing our compliance framework for California's Transparency in Frontier AI Act</title>
@@ -244,7 +244,7 @@
       <description>Latest from Anthropic: Dec 19, 2025PolicySharing our compliance framework for California's Transparency in Frontier AI Act (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/compliance-framework-SB53</guid>
       <category>Policy</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Nov 18, 2025ProductClaude now available in Microsoft Foundry and Microsoft 365 Copilot</title>
@@ -252,7 +252,7 @@
       <description>Latest from Anthropic: Nov 18, 2025ProductClaude now available in Microsoft Foundry and Microsoft 365 Copilot (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-in-microsoft-foundry</guid>
       <category>Product</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Claude Code</title>
@@ -260,7 +260,7 @@
       <description>Latest from Anthropic: Claude Code (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/product/claude-code</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Claude in Chrome</title>
@@ -268,7 +268,7 @@
       <description>Latest from Anthropic: Claude in Chrome (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/chrome</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Claude in Excel</title>
@@ -276,7 +276,7 @@
       <description>Latest from Anthropic: Claude in Excel (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/claude-in-excel</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Claude in Slack</title>
@@ -284,7 +284,7 @@
       <description>Latest from Anthropic: Claude in Slack (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/claude-in-slack</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Enterprise plan</title>
@@ -292,7 +292,7 @@
       <description>Latest from Anthropic: Enterprise plan (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/pricing/enterprise</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Download app</title>
@@ -300,7 +300,7 @@
       <description>Latest from Anthropic: Download app (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.ai/download</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Log in to Claude</title>
@@ -308,7 +308,7 @@
       <description>Latest from Anthropic: Log in to Claude (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.ai/</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Code modernization</title>
@@ -316,7 +316,7 @@
       <description>Latest from Anthropic: Code modernization (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/solutions/code-modernization</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Customer support</title>
@@ -324,7 +324,7 @@
       <description>Latest from Anthropic: Customer support (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/solutions/customer-support</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Financial services</title>
@@ -332,7 +332,7 @@
       <description>Latest from Anthropic: Financial services (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/solutions/financial-services</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Life sciences</title>
@@ -340,7 +340,7 @@
       <description>Latest from Anthropic: Life sciences (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/solutions/life-sciences</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Developer docs</title>
@@ -348,7 +348,7 @@
       <description>Latest from Anthropic: Developer docs (Джерело: News)</description>
       <guid isPermaLink="false">https://platform.claude.com/docs</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Regional Compliance</title>
@@ -356,7 +356,7 @@
       <description>Latest from Anthropic: Regional Compliance (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/regional-compliance</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Amazon Bedrock</title>
@@ -364,7 +364,7 @@
       <description>Latest from Anthropic: Amazon Bedrock (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/partners/amazon-bedrock</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Google Cloud’s Vertex AI</title>
@@ -372,7 +372,7 @@
       <description>Latest from Anthropic: Google Cloud’s Vertex AI (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/partners/google-cloud-vertex-ai</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Console login</title>
@@ -380,7 +380,7 @@
       <description>Latest from Anthropic: Console login (Джерело: News)</description>
       <guid isPermaLink="false">http://console.anthropic.com/</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Claude partner network</title>
@@ -388,7 +388,7 @@
       <description>Latest from Anthropic: Claude partner network (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/partners</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Customer stories</title>
@@ -396,7 +396,7 @@
       <description>Latest from Anthropic: Customer stories (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/customers</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Engineering at Anthropic</title>
@@ -404,7 +404,7 @@
       <description>Latest from Anthropic: Engineering at Anthropic (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Powered by Claude</title>
@@ -412,7 +412,7 @@
       <description>Latest from Anthropic: Powered by Claude (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/partners/powered-by-claude</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Service partners</title>
@@ -420,7 +420,7 @@
       <description>Latest from Anthropic: Service partners (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/partners/services</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Startups program</title>
@@ -428,7 +428,7 @@
       <description>Latest from Anthropic: Startups program (Джерело: News)</description>
       <guid isPermaLink="false">https://claude.com/programs/startups</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Economic Futures</title>
@@ -436,7 +436,7 @@
       <description>Latest from Anthropic: Economic Futures (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/economic-index</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Responsible Scaling Policy</title>
@@ -444,7 +444,7 @@
       <description>Latest from Anthropic: Responsible Scaling Policy (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</guid>
       <category>Policy</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Security and compliance</title>
@@ -452,7 +452,7 @@
       <description>Latest from Anthropic: Security and compliance (Джерело: News)</description>
       <guid isPermaLink="false">https://trust.anthropic.com/</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Transparency</title>
@@ -460,7 +460,7 @@
       <description>Latest from Anthropic: Transparency (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/transparency</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Availability</title>
@@ -468,7 +468,7 @@
       <description>Latest from Anthropic: Availability (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/supported-countries</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Support center</title>
@@ -476,7 +476,7 @@
       <description>Latest from Anthropic: Support center (Джерело: News)</description>
       <guid isPermaLink="false">https://support.claude.com/en/</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Privacy policy</title>
@@ -484,7 +484,7 @@
       <description>Latest from Anthropic: Privacy policy (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/privacy</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Responsible disclosure policy</title>
@@ -492,7 +492,7 @@
       <description>Latest from Anthropic: Responsible disclosure policy (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/responsible-disclosure-policy</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Terms of service: Commercial</title>
@@ -500,7 +500,7 @@
       <description>Latest from Anthropic: Terms of service: Commercial (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/commercial-terms</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Terms of service: Consumer</title>
@@ -508,7 +508,7 @@
       <description>Latest from Anthropic: Terms of service: Consumer (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/consumer-terms</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
     <item>
       <title>[Новини] Usage policy</title>
@@ -516,7 +516,7 @@
       <description>Latest from Anthropic: Usage policy (Джерело: News)</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/aup</guid>
       <category>News</category>
-      <pubDate>Thu, 08 Jan 2026 04:42:48 +0000</pubDate>
+      <pubDate>Thu, 08 Jan 2026 08:36:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
