@@ -7,14 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Thu, 15 Jan 2026 12:54:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 16:39:57 +0000</lastBuildDate>
     <item>
       <title>Download press kit</title>
       <link>https://anthropic.com/press-kit</link>
       <description>Latest from Anthropic: Download press kit</description>
       <guid isPermaLink="false">https://anthropic.com/press-kit</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Opus 4.5</title>
@@ -22,7 +22,7 @@
       <description>Latest from Anthropic: Introducing Claude Opus 4.5</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-5</guid>
       <category>Announcements</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Sonnet 4.5</title>
@@ -30,7 +30,7 @@
       <description>Latest from Anthropic: Introducing Claude Sonnet 4.5</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-5</guid>
       <category>Product</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Haiku 4.5</title>
@@ -38,7 +38,7 @@
       <description>Latest from Anthropic: Introducing Claude Haiku 4.5</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-haiku-4-5</guid>
       <category>Product</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
@@ -46,7 +46,7 @@
       <description>Latest from Anthropic: Anthropic raises $13B Series F at $183B post-money valuation</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
       <category>Announcements</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Thoughts on America’s AI Action Plan</title>
@@ -54,7 +54,15 @@
       <description>Latest from Anthropic: Thoughts on America’s AI Action Plan</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan</guid>
       <category>Policy</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jan 15, 2026Economic ResearchAnthropic Economic Index: new building blocks for understanding AI use</title>
+      <link>https://www.anthropic.com/research/economic-index-primitives</link>
+      <description>Latest from Anthropic: Jan 15, 2026Economic ResearchAnthropic Economic Index: new building blocks for understanding AI use</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
+      <category>Research</category>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Jan 15, 2026Economic ResearchAnthropic Economic Index report: economic primitives</title>
@@ -62,7 +70,7 @@
       <description>Latest from Anthropic: Jan 15, 2026Economic ResearchAnthropic Economic Index report: economic primitives</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
       <category>Research</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Dec 19, 2025PolicySharing our compliance framework for California's Transparency in Frontier AI Act</title>
@@ -70,7 +78,7 @@
       <description>Latest from Anthropic: Dec 19, 2025PolicySharing our compliance framework for California's Transparency in Frontier AI Act</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/compliance-framework-SB53</guid>
       <category>Policy</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Claude Code</title>
@@ -78,7 +86,7 @@
       <description>Latest from Anthropic: Claude Code</description>
       <guid isPermaLink="false">https://claude.com/product/claude-code</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Claude in Chrome</title>
@@ -86,7 +94,7 @@
       <description>Latest from Anthropic: Claude in Chrome</description>
       <guid isPermaLink="false">https://claude.com/chrome</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Claude in Excel</title>
@@ -94,7 +102,7 @@
       <description>Latest from Anthropic: Claude in Excel</description>
       <guid isPermaLink="false">https://claude.com/claude-in-excel</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Claude in Slack</title>
@@ -102,7 +110,7 @@
       <description>Latest from Anthropic: Claude in Slack</description>
       <guid isPermaLink="false">https://claude.com/claude-in-slack</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Enterprise plan</title>
@@ -110,7 +118,7 @@
       <description>Latest from Anthropic: Enterprise plan</description>
       <guid isPermaLink="false">https://claude.com/pricing/enterprise</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Download app</title>
@@ -118,7 +126,7 @@
       <description>Latest from Anthropic: Download app</description>
       <guid isPermaLink="false">https://claude.ai/download</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Log in to Claude</title>
@@ -126,7 +134,7 @@
       <description>Latest from Anthropic: Log in to Claude</description>
       <guid isPermaLink="false">https://claude.ai/</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Code modernization</title>
@@ -134,7 +142,7 @@
       <description>Latest from Anthropic: Code modernization</description>
       <guid isPermaLink="false">https://claude.com/solutions/code-modernization</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Customer support</title>
@@ -142,7 +150,7 @@
       <description>Latest from Anthropic: Customer support</description>
       <guid isPermaLink="false">https://claude.com/solutions/customer-support</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Financial services</title>
@@ -150,7 +158,7 @@
       <description>Latest from Anthropic: Financial services</description>
       <guid isPermaLink="false">https://claude.com/solutions/financial-services</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Life sciences</title>
@@ -158,7 +166,7 @@
       <description>Latest from Anthropic: Life sciences</description>
       <guid isPermaLink="false">https://claude.com/solutions/life-sciences</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Developer docs</title>
@@ -166,7 +174,7 @@
       <description>Latest from Anthropic: Developer docs</description>
       <guid isPermaLink="false">https://platform.claude.com/docs</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Regional Compliance</title>
@@ -174,7 +182,7 @@
       <description>Latest from Anthropic: Regional Compliance</description>
       <guid isPermaLink="false">https://claude.com/regional-compliance</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Amazon Bedrock</title>
@@ -182,7 +190,7 @@
       <description>Latest from Anthropic: Amazon Bedrock</description>
       <guid isPermaLink="false">https://claude.com/partners/amazon-bedrock</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Google Cloud’s Vertex AI</title>
@@ -190,7 +198,7 @@
       <description>Latest from Anthropic: Google Cloud’s Vertex AI</description>
       <guid isPermaLink="false">https://claude.com/partners/google-cloud-vertex-ai</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Console login</title>
@@ -198,7 +206,7 @@
       <description>Latest from Anthropic: Console login</description>
       <guid isPermaLink="false">https://platform.claude.com/</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Claude partner network</title>
@@ -206,7 +214,7 @@
       <description>Latest from Anthropic: Claude partner network</description>
       <guid isPermaLink="false">https://claude.com/partners</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Customer stories</title>
@@ -214,7 +222,7 @@
       <description>Latest from Anthropic: Customer stories</description>
       <guid isPermaLink="false">https://claude.com/customers</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Engineering at Anthropic</title>
@@ -222,7 +230,7 @@
       <description>Latest from Anthropic: Engineering at Anthropic</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Powered by Claude</title>
@@ -230,7 +238,7 @@
       <description>Latest from Anthropic: Powered by Claude</description>
       <guid isPermaLink="false">https://claude.com/partners/powered-by-claude</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Service partners</title>
@@ -238,7 +246,7 @@
       <description>Latest from Anthropic: Service partners</description>
       <guid isPermaLink="false">https://claude.com/partners/services</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Startups program</title>
@@ -246,7 +254,7 @@
       <description>Latest from Anthropic: Startups program</description>
       <guid isPermaLink="false">https://claude.com/programs/startups</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Economic Futures</title>
@@ -254,7 +262,7 @@
       <description>Latest from Anthropic: Economic Futures</description>
       <guid isPermaLink="false">https://www.anthropic.com/economic-index</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Responsible Scaling Policy</title>
@@ -262,7 +270,7 @@
       <description>Latest from Anthropic: Responsible Scaling Policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</guid>
       <category>Policy</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Security and compliance</title>
@@ -270,7 +278,7 @@
       <description>Latest from Anthropic: Security and compliance</description>
       <guid isPermaLink="false">https://trust.anthropic.com/</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Transparency</title>
@@ -278,7 +286,7 @@
       <description>Latest from Anthropic: Transparency</description>
       <guid isPermaLink="false">https://www.anthropic.com/transparency</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Availability</title>
@@ -286,7 +294,7 @@
       <description>Latest from Anthropic: Availability</description>
       <guid isPermaLink="false">https://www.anthropic.com/supported-countries</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Support center</title>
@@ -294,7 +302,7 @@
       <description>Latest from Anthropic: Support center</description>
       <guid isPermaLink="false">https://support.claude.com/en/</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Privacy policy</title>
@@ -302,7 +310,7 @@
       <description>Latest from Anthropic: Privacy policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/privacy</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Consumer health data privacy policy</title>
@@ -310,7 +318,7 @@
       <description>Latest from Anthropic: Consumer health data privacy policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/consumer-health-data-privacy-policy</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Responsible disclosure policy</title>
@@ -318,7 +326,7 @@
       <description>Latest from Anthropic: Responsible disclosure policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/responsible-disclosure-policy</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Terms of service: Commercial</title>
@@ -326,7 +334,7 @@
       <description>Latest from Anthropic: Terms of service: Commercial</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/commercial-terms</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Terms of service: Consumer</title>
@@ -334,7 +342,7 @@
       <description>Latest from Anthropic: Terms of service: Consumer</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/consumer-terms</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
     <item>
       <title>Usage policy</title>
@@ -342,7 +350,7 @@
       <description>Latest from Anthropic: Usage policy</description>
       <guid isPermaLink="false">https://www.anthropic.com/legal/aup</guid>
       <category>News</category>
-      <pubDate>Thu, 15 Jan 2026 12:54:30 +0000</pubDate>
+      <pubDate>Thu, 15 Jan 2026 16:39:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
