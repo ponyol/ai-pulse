@@ -12,7 +12,7 @@
       <link>https://mistral.ai/</link>
     </image>
     <language>uk</language>
-    <lastBuildDate>Wed, 04 Feb 2026 13:08:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 16:55:26 +0000</lastBuildDate>
     <item>
       <title>[Changelog] [Новини] Update - Jan. 11, 2024</title>
       <link>https://docs.mistral.ai/getting-started/changelog#update-jan-11-2024</link>
@@ -144,14 +144,14 @@
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Новини] [Новини] Terminally online Mistral Vibe.</title>
-      <link>https://mistral.ai/news/mistral-vibe-2-0</link>
+      <title>[Новини] [Новини] Voxtral transcribes at the speed of sound.</title>
+      <link>https://mistral.ai/news/voxtral-transcribe-2</link>
       <description>Джерело: Новини
 
-Останні новини від Anthropic: Terminally online Mistral Vibe.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/mistral-vibe-2-0</guid>
+Останні новини від Anthropic: Voxtral transcribes at the speed of sound.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/voxtral-transcribe-2</guid>
       <category>Новини</category>
-      <pubDate>Wed, 04 Feb 2026 13:08:09 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 16:54:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
