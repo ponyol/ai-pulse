@@ -7,14 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Engineering Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Sun, 08 Feb 2026 12:58:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 16:36:41 +0000</lastBuildDate>
     <item>
       <title>Quantifying infrastructure noise in agentic coding evals</title>
       <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
       <description>Engineering insights: FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding be...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Designing AI-resistant technical evaluations</title>
@@ -22,7 +22,7 @@
       <description>Engineering insights: Designing AI-resistant technical evaluationsJan 21, 2026...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Introducing advanced tool use on the Claude Developer Platform</title>
@@ -30,7 +30,7 @@
       <description>Engineering insights: Introducing advanced tool use on the Claude Developer PlatformNov 24, 2025...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Effective context engineering for AI agents</title>
@@ -38,7 +38,7 @@
       <description>Engineering insights: Effective context engineering for AI agentsSep 29, 2025...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Desktop Extensions: One-click MCP server installation for Claude Desktop</title>
@@ -46,7 +46,7 @@
       <description>Engineering insights: Desktop Extensions: One-click MCP server installation for Claude DesktopJun 26, 2025...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>How we built our multi-agent research system</title>
@@ -54,7 +54,7 @@
       <description>Engineering insights: How we built our multi-agent research systemJun 13, 2025...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Claude Code: Best practices for agentic coding</title>
@@ -62,7 +62,7 @@
       <description>Engineering insights: Claude Code: Best practices for agentic codingApr 18, 2025...</description>
       <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
     <item>
       <title>Engineering at Anthropic: Inside the team building reliable AI systems</title>
@@ -70,7 +70,7 @@
       <description>Engineering insights from Anthropic: Engineering at Anthropic: Inside the team building reliable AI systems</description>
       <guid isPermaLink="false">https://platform.claude.com/</guid>
       <category>Engineering</category>
-      <pubDate>Sun, 08 Feb 2026 12:58:54 +0000</pubDate>
+      <pubDate>Sun, 08 Feb 2026 16:36:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
