@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Alignment Science Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 10 Feb 2026 02:44:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 05:39:18 +0000</lastBuildDate>
     <item>
       <title>Towards training-time mitigations for alignment faking in RL</title>
       <link>https://alignment.anthropic.com/2025/alignment-faking-mitigations/</link>
@@ -15,7 +15,7 @@
                    ...</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-mitigations/</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Alignment Science Blog</title>
@@ -24,7 +24,7 @@
                    ...</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2026/hot-mess-of-ai/</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Reasoning Models Don't Always Say What They Think</title>
@@ -33,7 +33,7 @@
                    ...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/reasoning-models-dont-say-think</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Alignment Faking Revisited: Improved Classifiers and Open Source Extensions</title>
@@ -41,7 +41,7 @@
       <description>AI Safety research: We present a replication and extension of an alignment faking model organism....</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/alignment-faking-revisited/</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Auditing Language Models for Hidden Objectives</title>
@@ -50,7 +50,7 @@
                     ...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/auditing-hidden-objectives</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Automated Researchers Can Subtly Sandbag</title>
@@ -59,7 +59,7 @@
                    ...</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/automated-researchers-sandbag/</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Anthropic's Safeguards Research Team</title>
@@ -67,7 +67,7 @@
       <description>AI Safety research: We're launching a new research team focused on mitigating the post-deployment risks of AI systems....</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/introducing-safeguards-research-team/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Forecasting Rare Language Model Behaviors</title>
@@ -76,7 +76,7 @@
                     tes...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/forecasting-rare-behaviors</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Alignment Faking in Large Language Models</title>
@@ -85,7 +85,7 @@
                     have different views during training, while ac...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>How to Replicate and Extend our Alignment Faking Demo</title>
@@ -94,7 +94,7 @@
                     our demonstration of alignment faking, and pr...</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2024/how-to-alignment-faking/index.html</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Sabotage Evaluations for Frontier Models</title>
@@ -103,7 +103,7 @@
                     sabotage tasks, if they were trying to? We describe...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sabotage-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Simple Probes can Catch Sleeper Agents</title>
@@ -112,7 +112,7 @@
                     technique, can detect when backdoored "sleeper agent...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Sleeper Agents: Training Deceptive LLMs that Persist
@@ -122,7 +122,7 @@
                     despite our best efforts at alignment trainin...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
     <item>
       <title>Discovering Language Model Behaviors with Model-Written
@@ -132,7 +132,7 @@
                     (LM) evaluations with LMs, significantly redu...</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
       <category>Alignment Science</category>
-      <pubDate>Tue, 10 Feb 2026 02:44:36 +0000</pubDate>
+      <pubDate>Tue, 10 Feb 2026 05:39:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
