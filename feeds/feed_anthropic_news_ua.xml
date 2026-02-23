@@ -7,14 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>AI-PULSE RSS Generator - Ukrainian Translation</generator>
     <language>uk</language>
-    <lastBuildDate>Mon, 23 Feb 2026 17:02:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 20:49:43 +0000</lastBuildDate>
     <item>
       <title>Download press kit</title>
       <link>https://anthropic.com/press-kit</link>
       <description>Latest from Anthropic: Download press kit</description>
       <guid isPermaLink="false">https://anthropic.com/press-kit</guid>
       <category>News</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Sonnet 4.6</title>
@@ -22,7 +22,7 @@
       <description>Latest from Anthropic: Introducing Claude Sonnet 4.6</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-6</guid>
       <category>Product</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Opus 4.6</title>
@@ -30,7 +30,7 @@
       <description>Latest from Anthropic: Introducing Claude Opus 4.6</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-6</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Claude is a space to think</title>
@@ -38,7 +38,7 @@
       <description>Latest from Anthropic: Claude is a space to think</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Claude on Mars</title>
@@ -46,7 +46,7 @@
       <description>Latest from Anthropic: Claude on Mars</description>
       <guid isPermaLink="false">https://www.anthropic.com/mars</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation</title>
@@ -54,7 +54,7 @@
       <description>Latest from Anthropic: Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation</guid>
       <category>Announcements</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
     <item>
       <title>Feb 12, 2026PolicyAnthropic is donating $20 million to Public First Action</title>
@@ -62,15 +62,7 @@
       <description>Latest from Anthropic: Feb 12, 2026PolicyAnthropic is donating $20 million to Public First Action</description>
       <guid isPermaLink="false">https://www.anthropic.com/news/donate-public-first-action</guid>
       <category>Policy</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feb 11, 2026PolicyCovering electricity price increases from our data centers</title>
-      <link>https://www.anthropic.com/news/covering-electricity-price-increases</link>
-      <description>Latest from Anthropic: Feb 11, 2026PolicyCovering electricity price increases from our data centers</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/covering-electricity-price-increases</guid>
-      <category>Policy</category>
-      <pubDate>Mon, 23 Feb 2026 17:02:31 +0000</pubDate>
+      <pubDate>Mon, 23 Feb 2026 20:49:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
