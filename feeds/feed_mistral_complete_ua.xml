@@ -12,7 +12,7 @@
       <link>https://mistral.ai/</link>
     </image>
     <language>uk</language>
-    <lastBuildDate>Mon, 16 Mar 2026 17:06:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 20:43:08 +0000</lastBuildDate>
     <item>
       <title>[Changelog] [Новини] Update - Jan. 11, 2024</title>
       <link>https://docs.mistral.ai/getting-started/changelog#update-jan-11-2024</link>
@@ -144,14 +144,14 @@
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Новини] [Новини] Voxtral transcribes at the speed of sound.</title>
-      <link>https://mistral.ai/news/voxtral-transcribe-2</link>
+      <title>[Новини] [Новини] Представляємо Mistral Small 4</title>
+      <link>https://mistral.ai/news/mistral-small-4</link>
       <description>Джерело: Новини
 
-Останні новини від Anthropic: Voxtral transcribes at the speed of sound.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/voxtral-transcribe-2</guid>
+Останні новини від Anthropic: Представляємо Mistral Small 4</description>
+      <guid isPermaLink="false">https://mistral.ai/news/mistral-small-4</guid>
       <category>Новини</category>
-      <pubDate>Mon, 16 Mar 2026 17:05:58 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2026 20:42:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
