@@ -12,14 +12,14 @@
       <link>https://docs.mistral.ai/getting-started/changelog</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 13:34:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 23:56:28 +0000</lastBuildDate>
     <item>
       <title>API Update - MAI-2026-003: Mistral Vibe shell permission vulnerabilities</title>
       <link>https://docs.mistral.ai/getting-started/changelog#mai-2026-003-mistral-vibe-shell-permission-vulnerabilities</link>
       <description>Read release note</description>
       <guid isPermaLink="false">https://docs.mistral.ai/getting-started/changelog#mai-2026-003-mistral-vibe-shell-permission-vulnerabilities</guid>
       <category>API Update</category>
-      <pubDate>Fri, 27 Nov 2026 13:34:45 +0000</pubDate>
+      <pubDate>Fri, 27 Nov 2026 23:56:28 +0000</pubDate>
     </item>
     <item>
       <title>API Update - MAI-2026-002: TanStack supply chain attack affecting Mistral SDK packages</title>
@@ -27,7 +27,7 @@
       <description>Read release note</description>
       <guid isPermaLink="false">https://docs.mistral.ai/getting-started/changelog#mai-2026-002-tanstack-supply-chain-attack-affecting-mistral-sdk-packages</guid>
       <category>API Update</category>
-      <pubDate>Fri, 27 Nov 2026 13:34:45 +0000</pubDate>
+      <pubDate>Fri, 27 Nov 2026 23:56:28 +0000</pubDate>
     </item>
     <item>
       <title>API Update - MAI-2026-001: Mistral AI Studio API files input filtering and access restriction</title>
@@ -35,7 +35,7 @@
       <description>Read release note</description>
       <guid isPermaLink="false">https://docs.mistral.ai/getting-started/changelog#mai-2026-001-mistral-ai-studio-api-files-input-filtering-and-access-restriction</guid>
       <category>API Update</category>
-      <pubDate>Fri, 27 Nov 2026 13:34:45 +0000</pubDate>
+      <pubDate>Fri, 27 Nov 2026 23:56:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
